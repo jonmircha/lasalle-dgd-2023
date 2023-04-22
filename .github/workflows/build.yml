@@ -25,6 +25,8 @@ jobs:
         run: |
           npm ci
           npm run build
+          git config --global user.email "jonmircha@gmail.com"
+          git config --global user.name "Jonathan MirCha"
           npm run gh-pages
 
       - name: Deploy
