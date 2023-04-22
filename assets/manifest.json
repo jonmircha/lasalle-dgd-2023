@@ -1,0 +1,20 @@
+{
+  "name": "🦊 Kenai Eleventy Starter Template",
+  "short_name": "🦊 Kenai",
+  "description": "Description Project",
+  "background_color": "#FFF",
+  "theme_color": "#F60",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "../",
+  "scope": "../",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "../img/favicon.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}
