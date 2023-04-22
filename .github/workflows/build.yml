@@ -25,12 +25,13 @@ jobs:
         run: |
           npm ci
           npm run build
-          git config --global user.email "jonmircha@gmail.com"
-          git config --global user.name "Jonathan MirCha"
-          npm run gh-pages
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: ./_site
           github_token: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.email "jonmircha@gmail.com"
+          git config --global user.name "Jonathan MirCha"
+          npm run gh-pages
