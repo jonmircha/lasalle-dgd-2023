@@ -1,5 +1,5 @@
 module.exports = function () {
-  let mode = false,
+  let mode = true,
     domainDev = "http://localhost:7777/",
     domainProd = "https://jonmircha.github.io/lasalle-dgd-2023/",
     domain = mode ? domainProd : domainDev,
