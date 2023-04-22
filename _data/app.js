@@ -1,7 +1,7 @@
 module.exports = function () {
   let mode = false,
     domainDev = "http://localhost:7777/",
-    domainProd = "https://yourdomain.com/",
+    domainProd = "https://jonmircha.github.io/lasalle-dgd-2023/",
     domain = mode ? domainProd : domainDev,
     lang = "es",
     themeColor = `#FFF`,
