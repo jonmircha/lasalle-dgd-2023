@@ -1,0 +1,41 @@
+---
+layout: layout_page.njk
+title: Seminario Docente de Diseño
+description: null
+ogImg: null
+url: seminario-docente-diseno
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Presentar los resultados de aprendizaje en los niveles introductorio, profesionalizante y de especialización del programa académico de diseño gráfico y digital mediante la exposición que hace el claustro docente de las estrategias implementadas para desarrollar ejercicios y proyectos, así como, mostrar los materiales de diseño producidos durante un periodo determinado, y desde lo expuesto, escuchar la retroalimentación de sus pares docentes, para mejorar, innovar e implementar nuevas formas del quehacer docente en el aula.
+        </p>
+        <p>
+          <b>Descripción:</b> El programa académico de diseño gráfico y digital en un momento de incertidumbre por la baja matrícula que se presentó como fenómeno local para las universidades privadas, requirió como estrategia, obtener una perspectiva holística desde su quehacer académico y docente, así como entender las realidades subyacentes dentro de los talleres y aulas, por lo que era necesario darle voz a los actores que a diario son los responsables de la formación profesional de nuestros estudiantes de diseño. En la actualidad, este seminario ha servido, tanto para el claustro docente, como para la coordinación del programa académico, como detonante para reconocer las buenas prácticas implementadas en la licenciatura, en este mismo sentido, también se han fortalecido las relaciones entre líneas curriculares en dirección vertical, horizontal o transversal.
+        </p>
+        <p>
+          El proyecto se realiza mediante una exposición de 10 minutos por parte de los profesores frente al claustro docente, pueden exponer en equipo o individual. Es obligatorio para todos que la presentación muestre las características de su clase, objetivos, metas y desarrollo, al final se exponen los resultados generados desde la estrategia docente. Tras presentar, se abre un espacio de 10 minutos para que los espectadores hagan propuestas de mejora en los procesos, a modo de la identificación de las áreas de oportunidad que se dan a partir del entendimiento de la operación in situ del programa académico.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 5) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/sddd_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/sddd_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

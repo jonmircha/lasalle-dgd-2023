@@ -1,0 +1,38 @@
+---
+layout: layout_page.njk
+title: Cátedra Prima
+description: null
+ogImg: null
+url: catedra-prima
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Exponer a los estudiantes de nuevo ingreso de las licenciaturas de la Facultad Mexicana de Arquitectura, Diseño y Comunicación, un tema de actualidad disciplinar específico para las cinco carreras con las que se cuenta, dictado por un experto, líder de opinión en la materia o personalidad reconocida por su trayectoria profesional, a través de una conferencia magistral al inicio del semestre, que simbólicamente, los introduce a la vida universitaria, así como, dar inicio a las clases en la Universidad y su formación profesional.
+        </p>
+        <p>
+          <b>Descripción:</b> Como estrategia de la Universidad La Salle con respecto a esta actividad que se realizan cada nuevo ciclo escolar, le corresponde a la Facultad organizar por cada programa académico que la integra, la Cátedra Prima, así como, definir al invitado y gestionar las actividades de esta conferencia magistral cada cinco años; la última vez que le correspondió a la licenciatura en diseño gráfico y digital, se tomó como temática a los “Grandes de la Identidad”, proyecto en el que se incluyó al Arq. Pedro Ramírez Vázquez, quien diseñó la identidad de la Universidad La Salle, que se ha convertido en el sistema de identidad para la red de universidades en la República Mexicana. Se tuvieron como invitados a Luis Almeida y Francisco Mercado, quienes compartieron su visión del diseño de identidad a través de su propia experiencia como diseñadores gráficos.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 18) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/cp_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/cp_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

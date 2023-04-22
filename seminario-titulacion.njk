@@ -1,0 +1,38 @@
+---
+layout: layout_page.njk
+title: Seminario de Titulación
+description: null
+ogImg: null
+url: seminario-titulacion
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Aplicar la metodología Design Thinking en el desarrollo de proyectos estratégicos y de innovación, con base en la observación de necesidades de diseño gráfico y digital en cualquiera de los ámbitos económico o social, a través de un seminario de capacitación dirigido a egresados del programa académico, para exponer ante un sínodo su propuesta para que resuelva la problemática identificada, y a través de este proceso, optar por la titulación de licenciatura.
+        </p>
+        <p>
+          <b>Descripción:</b> El seminario de titulación es una herramienta académica que les permite a los egresados de las licenciaturas de la facultad que cursaron el último año la asignatura de proyecto terminal, y que no obtuvieron el promedio necesario, aprovechar la oportunidad de obtener su título de licenciatura a través de una capacitación en metodología Design Thinking, que durante 16 semanas de duración y promedio mínimo de ocho, los estudiantes desarrollan un proyecto de investigación y aplicación de las herramientas como empathy map, user persona, customer jorney map, affinity map, stakeholders and stockholders map, entre otras, para generar una propuesta de solución a la problemática que hayan identificado a través de la observación y el proceso metodológico. Durante este seminario, los estudiantes estructuran un documento donde registran y reportan los hallazgos de su proceso, para el final hacer una propuesta de innovación y posible respuesta, desde el diseño gráfico y digital, a la necesidad que determinaron. El documento que se obtiene en este seminario se evalúa por el profesor que imparte el curso, si la rúbrica determina que la calificación es ocho entonces pueden presentar su exposición ante un sínodo en su examen recepcional para poder titularse por esta modalidad.
+        </p>
+      </article>
+    </section>
+    {# <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 11) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/rc_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/rc_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section> #}
+  </div>
+</main>

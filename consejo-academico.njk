@@ -1,0 +1,38 @@
+---
+layout: layout_page.njk
+title: Consejo Académico
+description: null
+ogImg: null
+url: consejo-academico
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Convocar a maestros con representación del corpus docente de la facultad como organismo de gobierno de apoyo al Consejo Técnico y al director de la facultad en temas académicos que requieran de consejería, con el fin de conocer diferentes puntos de vista y recomendaciones para el mejor funcionamiento de la actividad académica de la facultad.
+        </p>
+        <p>
+          <b>Descripción:</b> El Consejo Académico es una propuesta de la facultad desde hace 12 años de poder convocar en representación del corpus docente de la facultad a maestros por invitación con nombramiento para participar en la consejería ante temas estrictamente académicos de la facultad, su participación es activa y con derecho a voto en la asamblea, ya que es un órgano de gobierno de apoyo al Consejo Técnico y a la Dirección de la facultad por un período trianual. Se sesiona una vez al semestre o por convocatoria extraordinaria por las tarde-noche con una agenda del día, cada programa postula a su representante, maestro de trayectoria con una buena evaluación docente para esta labor que ayuden a mantener la calidad formativa del programa de la facultad y el buen funcionamiento de la actividad académica.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 9) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/cons_acad_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/cons_acad_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

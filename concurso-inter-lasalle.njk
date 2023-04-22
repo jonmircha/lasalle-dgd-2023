@@ -1,0 +1,44 @@
+---
+layout: layout_page.njk
+title: Concurso Inter Universitario La Salle
+description: null
+ogImg: null
+url: concurso-inter-lasalle
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Diseñar un proyecto inspirado en temáticas ligadas a alguna actividad artística o cultural, donde los estudiantes de segundo semestre aplican los procesos de representación, abstracción de forma, composición, color, módulo, patrón y sistema, que se emplea en una prenda de vestir, para participar, desde el Taller Básico de Diseño II, con otras instituciones de educación superior de la Ciudad de México.
+        </p>
+        <p>
+          <b>Descripción:</b> El concurso ínter universitario La Salle es una iniciativa del grupo de profesores que imparten los Talleres Básicos de Diseño I y II, que tienen la visión de comparar los resultados de aprendizaje de los estudiantes con respecto a los conceptos básicos de la disciplina durante su primer año de formación; gracias a las relaciones profesionales y personales con la Escuela de Diseño de Instituto Nacional de Bellas Artes EDINBA se logra establecer las bases para realizar el concurso, que considera la participación de estudiantes de primer año, que aborda una temática específica, argumentada por los participantes desde la investigación a través de la etnografía digital y documentación análoga, que les permite desarrollar los procesos creativo, de abstracción, de aplicación de color, de propuesta gráfica, de composición y aplicación en objetos de diseño, así como, fomentar su pensamiento de diseño. 
+        </p>
+        <p>
+          El resultado de estos procesos se emplea en una prenda de vestir que se evalúa por invitados externos, profesionistas que poseen una trayectoria reconocida dentro del gremio del diseño, tanto gráfico como textil como, por ejemplo, Héctor Rivero Borrell, ex director del Museo Franz Mayer, y que a través su mirada experta, determinan a las propuestas innovadoras, de alta calidad de confección, de aplicación gráfica, y de representación conceptual, que se encuentra argumentada de manera clara, lo que permita definir a los ganadores del concurso. 
+        </p>
+        <p>
+          Como colofón de este proyecto, se realiza un evento en donde, a modo de pasarela, los estudiantes de ambas instituciones presentan las prendas con la aplicación gráfica que diseñaron, espacio en el cual, la comunidad de diseño de la Facultad los acompaña como espectadores, y que cumple con el propósito, de reconocer los proyectos ganadores y a sus compañeros de licenciatura.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 10) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/ils_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/ils_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

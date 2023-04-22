@@ -1,0 +1,41 @@
+---
+layout: layout_page.njk
+title: Fiesta de Bienvenida y Despedida de Generación
+description: null
+ogImg: null
+url: fiesta-bienvenida-despedida-generacion
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo Fiesta de Bienvenida:</b> Festejar el inicio  de estudios de licenciatura de la Universidad La Salle a través de una fiesta animada con el equipo de animación y grupo musical que se realiza en la plaza principal del Campus, donde comparten los estudiantes que acaban de ingresar junto con autoridades de la facultad y universitarias, para celebrar el inicio de su paso por la institución y generar en ellos sentido de pertenencia.
+        </p>
+        <p>
+          <b>Objetivo Fiesta de Despedida:</b> Festejar el inicio y la terminación de estudios de licenciatura de la Universidad La Salle a través de una fiesta animada con mariachis y grupo musical que se realiza en la plaza principal del Campus, donde comparten los estudiantes que acaban de egresar con sus profesores, autoridades de la facultad y universitarias, para recordar su paso por la institución y desearles éxito en su próxima vida profesional.
+        </p>
+        <p>
+          <b>Descripción:</b> La fiesta de despedida se realiza cada semestre el día después que concluyen las clases de licenciatura, la universidad invita a todos los recién egresados a festejar la terminación de los estudios de su carrera en Plaza La Salle, espacio central del Campus donde se realizan los eventos más significativos para la comunidad universitaria; en este sentido, al ser la última actividad como grupo, los estudiantes asisten, en muchos casos, junto con sus familiares a despedirse simbólicamente de sus compañeros y generación, a ser reconocidos por el Rector, Vicerrectores, Directores, Jefes de Carrera, Coordinadores y Claustro Académico, quienes en voz de nuestra máxima autoridad, desean éxito y bienestar en su futuro profesional. El festejo se acompaña de un grupo musical representativo y de un Mariachi que cierra el evento dando la despedida a nuestros estudiantes.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 19) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/bg_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/bg_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

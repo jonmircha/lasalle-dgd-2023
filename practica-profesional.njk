@@ -1,0 +1,38 @@
+---
+layout: layout_page.njk
+title: Práctica en el Campo Profesional
+description: null
+ogImg: null
+url: practica-profesional
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Fomentar en el estudiante, el desarrollo de las habilidades, actitudes, valores y destrezas, así como la aplicación de conocimientos teórico-prácticos adquiridos en las aulas; mediante su participación en el ámbito profesional, que de manera temporal y obligatoria debe realizar para acrecentar la noción y perspectiva del campo laboral del diseño.
+        </p>
+        <p>
+          <b>Descripción:</b> El Programa de Prácticas Profesionales se ha acogido en el Programa Académico con la intención de establecer un vínculo continuo entre éste y el campo laboral. La intención es insertar a los estudiantes en un espacio pertinente, que corresponda a su quehacer del diseño y que contribuya a los procesos de aprendizaje y a la compresión holística de las problemáticas y situaciones en las que esté involucrado de acuerdo con la especificidad del quehacer de su disciplina. El vínculo se propone bidireccional, en el que la teoría y práctica se conjugan mutuamente, concretando un nuevo sentido y significado de la realidad profesional y social, así como una experiencia multidimensional centrada en el “conocer en la práctica”, en que el estudiante aprenda saberes, desarrolle proyectos y comparta capacidades y valores. A partir de séptimo semestre, momento en que los estudiantes han realizado el cumplimiento de la mayoría de las tareas institucionales asignadas, han elegido un área de profundización específica que coadyuva a la definición de su perfil y que su horario académico cambia al turno vespertino, se asigna, a partir de una batería de empresas del ramo del diseño de marca, diseño digital, diseño de empaque, diseño publicitario, diseño de impresos, diseño editorial entre otros. El tiempo de desarrollo de las prácticas es de 240 horas, calculadas en 4 horas diarias a lo largo de 14 semanas de trabajo. Las prácticas deberán realizarse en conformidad con el empleador en las áreas especializadas del Programa Académico, correspondiendo siempre al nivel académico del practicante y en un ambiente real de trabajo. Tanto al inicio como al final del período, la empresa debe otorgar al estudiante una carta rubricada con el tiempo de inicio y final del período. Las prácticas profesionales al concebirse como materia curricular están sujetas a la normativa del Reglamento General de las Universidades La Salle, esto quiere decir que la liberación de esta actividad formativa ocurre cuando la asignatura es aprobada en el octavo semestre del Programa Académico. Al final del período también se solicita por parte del Coordinador del programa a la empresa, una retroalimentación hacia el desempeño del estudiante que permite también valorar su calificación final de la asignatura correspondiente.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 17) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/pract_prof_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/pract_prof_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

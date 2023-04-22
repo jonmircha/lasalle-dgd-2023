@@ -1,0 +1,38 @@
+---
+layout: layout_page.njk
+title: Concurso Lasallista de Investigación, Desarrollo e Innovación
+description: null
+ogImg: null
+url: concurso-lasallista-investigacion-desarrollo-innovacion
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Participar como comunidad académica de la licenciatura en Diseño Gráfico y Digital en el concurso institucional CLIDI en la categoría de estudiantes, a través de la preparación de proyectos de calidad generados y gestionados en las materias del Plan de Estudios más afines a la convocatoria, con el acompañamiento de maestros investigadores que favorezcan la metodología y desarrollo de los proyectos estudiantiles, contribuyendo a la construcción de la cultura de la investigación entre los estudiantes y maestros, y a la participación en concursos de iniciativas de desarrollo e innovación.
+        </p>
+        <p>
+          <b>Descripción:</b> A través de las materias de Antropología para el Diseño, Sociedad Cultura y Diseño, Metodología de la Investigación y Proyecto Terminal I y II se invita al maestro titular a participar con sus alumnos, leyendo previamente la convocatoria para ver la pertinencia de los proyectos en el concurso CLIDI, el maestro se compromete a seleccionar los proyectos, darles seguimiento y acompañamiento para presentar proyectos de calidad, meter en tiempo y forma los proyectos conforme los requerimientos y estar atento a las etapas del concurso. Es para el maestro también un termómetro de los alcances de sus alumnos en materia de la calidad de lo trabajado en su materia, para lo cual desde la jefatura se da seguimiento a todo el proceso en coordinación con los maestros. El CLIDI es sin duda un esfuerzo de la Vicerrectoría de Investigación que moviliza a la comunidad educativa en favor de esta tarea sustantiva para todo programa académico. Hasta el momento los resultados más allá de haber obtenido algún premio en la categoría de estudiantes, ha venido consolidando la participación permanente de nuestra comunidad en la investigación básica y aplicada desde la visión de la responsabilidad social del diseño.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 5) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/clidi_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/clidi_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

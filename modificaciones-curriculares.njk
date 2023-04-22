@@ -1,0 +1,38 @@
+---
+layout: layout_page.njk
+title: Modificaciones Curriculares
+description: null
+ogImg: null
+url: modificaciones-curriculares
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> nalizar la pertinencia de los planes y programas de estudios del programa académico de diseño gráfico y digital a través de la investigación, análisis y evaluación de las tendencias actuales que presenta la actividad profesional, mencionada por empleadores, egresados y organismos glocales que son referente de la disciplina, para mejorar y diseñar nuevos plenes y programas de estudio que den respuesta a las necesidades de formación de los futuros diseñadores gráficos digitales.
+        </p>
+        <p>
+          <b>Descripción:</b> Como estrategia de la Universidad La Salle México para la mejora continua y validación de la pertinencia de sus planes y programas de estudios, cada cinco años se realizan las modificaciones curriculares de las licenciaturas, en específico en el programa académico de diseño gráfico y digital, ha pasado por seis procesos, en los cuales, con el apoyo de la Coordinación de Planeación y Modificación Curricular, se aplican varias estrategias encaminadas en conocer las tendencias del mercado profesional del diseño de manera local y global, una primera aproximación se realiza mediante la investigación en universidades con la misma oferta educativa, se escuchan a las Universidades La Salle que integran al SEULSA, que pertenecen al Distrito Antillas-México Sur, Cancún, Cuernavaca, México, Morelia y Pachuca, se entrevistan a expertos en las áreas del diseño con las que se encuentra afinidad con el programa académico, asimismo, se encuestan a egresados de varias generaciones para conocer su punto de vista sobre la realidad que ellos vivieron al tener sus primeros empleos, se les pide que identifiquen las áreas de fortaleza y oportunidad de la licenciatura que estudiaron; en otro sentido, al interior de la facultad, se convoca al claustro docente a integrar la academia que permita evaluar y consolidar los resultados obtenidos durante el proceso, al mismo tiempo, invitarlos para que sean quienes modifiquen los programas de las asignaturas y talleres que han impartido históricamente, y también, a que diseñen los nuevos programas de estudio que se incluyen en la propuesta. 
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 2) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/mod_curri_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-12">
+          <img src="/img/11/mod_curri_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

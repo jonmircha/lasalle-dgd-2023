@@ -1,0 +1,41 @@
+---
+layout: layout_page.njk
+title: Taller Vertical de Vinculación Social
+description: null
+ogImg: null
+url: taller-vertical
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Vincular a los estudiantes y al claustro docente de la licenciatura en Diseño Gráfico y Digital de la Universidad La Salle México con organizaciones sin fines de lucro en nuestro país, que atienden las necesidades de niñas, niños y mujeres en situación de vulnerabilidad, así como personas con discapacidad, mediante la propuesta de estrategias de comunicación visual y desarrollo de proyectos de diseño gráfico digital, que abordan como desafío, las necesidades que tienen las organizaciones invitadas, y que desde este perspectiva, se propicie la participación activa de la comunidad para lograr el compromiso con el cambio social y convertirnos en donadores que coadyuvan a salvar vidas a través del diseño.
+        </p>
+        <p>
+          <b>Descripción:</b> Este taller se realiza cada año entre los meses de agosto a octubre, se conforman equipos de ocho a 10 personas integrado por estudiantes de primero a último semestres, esta mezcla de personas busca, además de resolver las problemáticas que nos exponen las organizaciones invitadas, el fortalecimiento del liderazgo, la negociación, la comunicación asertiva, la toma de decisiones, la tolerancia a la frustración, la argumentación y la exposición frente a una audiencia, habilidades blandas que sirven para el futuro egresado. Es necesario mencionar que corresponden aproximadamente seis o siete equipos a cada una de las tres asociaciones invitadas.
+        </p>
+        <p>
+          Se tienen seis momentos de contacto con los clientes, el primero se produce cuando las asociaciones exponen ante los equipos su plataforma institucional de ayuda para sus usuarios, las necesidades de comunicación visual que tienen y la entrega de un Brief donde se comparte la información necesaria para desarrollar el proyecto de diseño; del segundo al cuarto momento de vinculación con los clientes, se presenta durante las tres revisiones que tiene el taller, que se da cada 15 días aproximadamente, esto permite a los equipos, desarrollar y presentar sus avances para que se tenga una perspectiva clara de la línea creativa de los proyectos, así como escuchar la retroalimentación por parte de las personas que nos acompañan de las asociaciones. Es importante decir que estas correcciones, y durante el tiempo que tienen los equipos para avanzar, se tienen profesores asignados por la coordinación del taller, quienes revisan y dan seguimiento a los proyectos que los equipos están diseñando. El quinto momento con los clientes se al momento de entrega de las propuestas de los proyectos de los equipos a la coordinación, se hace una pequeña exposición de los entregables para que las asociaciones nos hagan una visita  para definir los proyectos ganadores, tomando en cuenta el proceso de diseño, las necesidades comunicación visual, la calidad de las entregas, la creatividad aplicada en los soportes gráficos análogos y digitales, así como las opiniones de profesores asesores, sin embargo, quien tiene la última palabra en la toma de decisiones es el cliente. Por último, para cerrar el taller, se realiza una premiación en donde asiste la comunidad de la licenciatura, autoridades de la Facultad, y si es posible por agenda, la Vicerrectora Académica; en este evento se les pide a las asociaciones que presenten y reconozcan los proyectos ganadores, momento en el que se les da la palabra a los estudiantes para que presenten y argumenten los aspectos académicos y formativos del proyecto ganador. 
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 22) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/tv_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/tv_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

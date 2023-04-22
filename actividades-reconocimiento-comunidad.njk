@@ -1,0 +1,36 @@
+---
+layout: layout_page.njk
+title: Actividades de reconocimiento a la Comunidad
+description: null
+ogImg: null
+url: actividades-reconocimiento-comunidad
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          La Universidad La Salle tiene como lema al “Indivisa Manent”, cuyo significante subyace a la unidad de la comunidad en todos los aspectos de su quehacer formativo e integral, abarca lo educativo, lo científico, lo social, lo ambiental, lo tecnológico, lo ético y lo deportivo entre muchos otros, son parte indispensable de la formación que reciben los estudiantes de los diversos programas académicos de su oferta académica.
+        <p>
+          Como parte fundamental del quehacer de la institución, se encuentra el reconocimiento a los miembros de su comunidad, colaboradores y estudiantes, que logran distinguirse a través de su trayectoria académica o sus funciones dentro de la administración y gestión que les son encomendadas. En este sentido, existen varios momentos de evocación de los valores institucionales que va de lo académico a lo profesional, cabe mencionar que estos reconocimientos se otorgan desde cuatro áreas principalmente de la Universidad La Salle: Comunidad de Hermanos de las Escuelas Cristianas, Rectoría y Vicerrectorías Académica, de Bienestar y Formación, e Investigación, Facultades y Consejo Universitario Estudiantil, que son las entidades internas que promueven los eventos que a continuación se describen.
+        </p>
+        <ol class="my-5">
+          {% for el in site.menuCarpeta11[4].submenu %}
+            {% if loop.index0 > 0 %}
+              <li class="fs-5">
+                <a href="{{ el.slug }}" class="">{{ el.nombre | safe }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ol>
+        <img src="{{site.menuCarpeta11[4].portada}}" alt="{{title}}" class="img-fluid">
+      </article>
+    </section>
+  </div>
+</main>

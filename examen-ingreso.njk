@@ -1,0 +1,41 @@
+---
+layout: layout_page.njk
+title: Examen de ingreso de Diseño Gráfico Digital
+description: null
+ogImg: null
+url: examen-ingreso
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Evaluar los conocimientos sobre arte, diseño, geometría, composición, tecnología y color, entre otras, que poseen los estudiantes de nuevo ingreso del programa académico de diseño gráfico y digital, a través de un formulario digital que se aplica para analizar el grado de información que tienen sobre conceptos básicos de diseño, indispensables por construir en su formación profesional, y al mismo tiempo, diagnosticar aquellos que adolecen, con el propósito de homologarlos durante el Curso Propedéutico que deben cursar previo al inicio de clases.
+        </p>
+        <p>
+          <b>Descripción:</b> Este proyecto se encuentra aún en gestación, aunque ya se han hecho algunas pruebas en años anteriores, vemos la necesidad de establecer este tipo de evaluación previa a que los estudiantes inicien su formación profesional, que nos permita evaluar y diagnosticar que tanto conocen los estudiantes de primer semestre sobre conceptos básicos de diseño o arte, ya que por la diversidad de áreas que cursan en preparatoria, hemos observado que se encuentran en varios niveles, que van desde muy bajos, y en algunos casos, con desarrollo de habilidades bien construidas y por completo alineados a la disciplina.
+        </p>
+        <p>
+          La propuesta para poner en marcha este proyecto es que, durante quince días en su horario de clases, ofrecerles un curso propedéutico obligatorio donde los profesores que les darán clase en primero y segundo semestre, sean quienes construyan los conocimientos por homologar en los estudiantes, y en este sentido, el primer día de clase posean los aprendizajes y habilidades básicas que les permita desarrollar pensamiento y capacidades de diseño indispensables para su formación como diseñadores gráficos digitales.
+        </p>
+      </article>
+    </section>
+{#     <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 9) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/cons_acad_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/cons_acad_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section> #}
+  </div>
+</main>

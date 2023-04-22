@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ app.lang }}">
+  <head>
+    {% include "metatags.njk" %}
+  </head>
+  <body>
+    {% block postHead %}
+      <h1>{{ title }}</h1>
+    {% endblock postHead %}
+    {{ content | safe }}
+    <script src="assets/main.js" type="module"></script>
+  </body>
+</html>

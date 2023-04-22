@@ -1,0 +1,258 @@
+{
+  "hello": "world",
+  "menuCarpeta11": [
+    {
+      "numero": "11.1",
+      "nombre": "Proyecto Prestigio",
+      "slug": "/proyecto-prestigio",
+      "intro": "<p>Los proyectos prestigio de la Facultad Mexicana de Arquitectura, Diseño y Comunicación tiene como objetivo vincular a la academia con el entorno económico, profesional y social a través de la participación activa de autoridades, claustro docente, estudiantes, egresados y colaboradores asociados (profesionistas, estudios, despachos, agencias, asociaciones sin fines de lucro, etc.), para fortalecer los programas académicos de pregrado y posgrado mediante el reconocimiento de áreas de oportunidad, y que se distinguen por su calidad y pertinencia.</p>",
+      "portada": "/img/11/tv_1.jpg",
+      "submenu": [
+        {
+          "nombre": "Introducción",
+          "slug": "/proyecto-prestigio"
+        },
+        {
+          "nombre": "Taller Vertical de Vinculación Social",
+          "slug": "/taller-vertical"
+        },
+        {
+          "nombre": "<i>Graphic Design Showroom</i>",
+          "slug": "/graphic-design-showroom"
+        },
+        {
+          "nombre": "Congreso <i>Future Design</i>",
+          "slug": "/congreso-future-design"
+        },
+        {
+          "nombre": "<i>Design Tour</i>",
+          "slug": "/design-tour"
+        },
+        {
+          "nombre": "Cátedra Prima",
+          "slug": "/catedra-prima"
+        }
+      ]
+    },
+    {
+      "numero": "11.2",
+      "nombre": "Proyectos orientados a la Docencia",
+      "slug": "/proyectos-docencia",
+      "intro": "<p>En la Universidad La Salle y la Facultad Mexicana de Arquitectura, Diseño y Comunicación se impulsa el fortalecimiento del Claustro Académico a través de actividades orientadas a su formación a través de capacitación en tendencias educativas que subyacen a las necesidades sociales que la institución define continuamente; al desarrollo de habilidades digitales y de estrategias de aprendizaje-enseñanza mediada por tecnología, que cabe decir, a consecuencia de la pandemia por la COVID-19, obligó a poner en práctica muchas de estas capacidades adquiridas para facilitar conocimientos con base en las nuevas plataformas tecnológicas.</p>",
+      "portada": "/img/11/fml_1.jpg",
+      "submenu": [
+        {
+          "nombre": "Introducción",
+          "slug": "/proyectos-docencia"
+        },
+        {
+          "nombre": "Encuentro de Formación Docente",
+          "slug": "/encuentro-formacion-docente"
+        },
+        {
+          "nombre": "Foro Maestros Lasallistas",
+          "slug": "/foro-lasallistas"
+        },
+        {
+          "nombre": "Cursos de Formacion Docente",
+          "slug": "/cursos-formacion-docente"
+        },
+        {
+          "nombre": "Seminario Docente de Diseño",
+          "slug": "/seminario-docente-diseno"
+        },
+        {
+          "nombre": "Diplomado en Didáctica para el Diseño",
+          "slug": "/diplomado-didactica-diseno"
+        },
+        {
+          "nombre": "Entrevista y Seguimiento Docente",
+          "slug": "/entrevista-seguimiento-docente"
+        },
+        {
+          "nombre": "Visita al Aula",
+          "slug": "/visita-aula"
+        },
+        {
+          "nombre": "Matriz de Cumplimiento Docente",
+          "slug": "/matriz-cumplimiento-docente"
+        }
+      ]
+    },
+    {
+      "numero": "11.3",
+      "nombre": "Proyectos orientados al Estudiante",
+      "slug": "/proyectos-estudiante",
+      "intro": "<p>Las acciones de la coordinación del programa académico de diseño gráfico y digital se enfocan primordialmente al aprendizaje, vinculación social, proyección profesional del estudiante, estos proyectos extracurriculares se realizan con regularidad durante su formación, se orientan a la construcción de los aprendizajes de la disciplina y a la construcción del sentido de pertenencia y orgullo por pertenecer a la Universidad La Salle México.</p>",
+      "portada": "/img/11/p_1.jpg",
+      "submenu": [
+        {
+          "nombre": "Introducción",
+          "slug": "/proyectos-estudiante"
+        },
+        {
+          "nombre": "Curso Propedéutico",
+          "slug": "/curso-propedeutico"
+        },
+        {
+          "nombre": "Cursos y Diplomados de Actualización Académica",
+          "slug": "/cursos-diplomados-actualizacion-academica"
+        },
+        {
+          "nombre": "Concursos de Diseño",
+          "slug": "/concursos-diseno"
+        },
+        {
+          "nombre": "Concurso Inter Universitario La Salle",
+          "slug": "/concurso-inter-lasalle"
+        },
+        {
+          "nombre": "Concurso Lasallista de Investigación, Desarrollo e Innovación",
+          "slug": "/concurso-lasallista-investigacion-desarrollo-innovacion"
+        },
+        {
+          "nombre": "Profesor Invitado",
+          "slug": "/profesor-invitado"
+        },
+        {
+          "nombre": "Ciudadanía FAMADyC",
+          "slug": "/ciudadania-famadyc"
+        },
+        {
+          "nombre": "Asesorías Académicas",
+          "slug": "/asesorias-academicas"
+        },
+        {
+          "nombre": "Aula Sin Fronteras",
+          "slug": "/aula-sin-fronteras"
+        },
+        {
+          "nombre": "<i>Mentoring</i> Académico Universitario",
+          "slug": "/mentoring-academico-universitario"
+        },
+        {
+          "nombre": "Repaso CENEVAL",
+          "slug": "/repaso-ceneval"
+        },
+        {
+          "nombre": "Seminario de Titulación",
+          "slug": "/seminario-titulacion"
+        },
+        {
+          "nombre": "Jornadas de Medio Camino y Síntesis",
+          "slug": "/jornadas-medio-camino-sintesis"
+        },
+        {
+          "nombre": "Fiesta de Bienvenida y Despedida de Generación",
+          "slug": "/fiesta-bienvenida-despedida-generacion"
+        },
+        {
+          "nombre": "Congresos Nacionales e Internacionales",
+          "slug": "/congresos-nacionales"
+        }
+      ]
+    },
+    {
+      "numero": "11.4",
+      "nombre": "Proyectos gestionados por el programa académico",
+      "slug": "/proyectos-gestionados-programa-academico",
+      "intro": "<p>La coordinación del programa académico de diseño gráfico y digital gestiona diversas actividades que corresponden a mandatorios institucionales y acciones enfocadas al fortalecimiento de la formación profesional de nuestros estudiantes, a través de procesos de mejora continua, vinculación académica con universidades hermanas del Sistema de Universidades La Salle, así como con el campo laboral, reconocimiento y cercanía del claustro académico, evaluación de los aprendizajes interna y externa estandarizada, difusión de los resultados de proyectos que se desarrollan en las aulas y talleres de la facultad.</p>",
+      "portada": "/img/11/acredi_1.jpg",
+      "submenu": [
+        {
+          "nombre": "Introducción",
+          "slug": "/proyectos-gestionados-programa-academico"
+        },
+        {
+          "nombre": "Modificaciones Curriculares",
+          "slug": "/modificaciones-curriculares"
+        },
+        {
+          "nombre": "Reacreditación del Programa Académico por COMAPROD",
+          "slug": "/reacreditacion-comaprod"
+        },
+        {
+          "nombre": "Consejo Consultivo",
+          "slug": "/consejo-consultivo"
+        },
+        {
+          "nombre": "Consejo Académico",
+          "slug": "/consejo-academico"
+        },
+        {
+          "nombre": "Examen de ingreso de Diseño Gráfico Digital",
+          "slug": "/examen-ingreso"
+        },
+        {
+          "nombre": "Expo D+ Diseño",
+          "slug": "/expo-diseno"
+        },
+        {
+          "nombre": "Vinculación Inter La Salle",
+          "slug": "/vinculacion-inter-lasalle"
+        },
+        {
+          "nombre": "Evaluación de Nivel",
+          "slug": "/evaluacion-nivel"
+        },
+        {
+          "nombre": "Actividad Curricular Complementaria",
+          "slug": "/actividad-curricular-complementaria"
+        },
+        {
+          "nombre": "Práctica en el Campo Profesional",
+          "slug": "/practica-profesional"
+        },
+        {
+          "nombre": "Metodología para el pensamiento de diseño La Salle",
+          "slug": "/pensamiento-diseno"
+        }
+      ]
+    },
+    {
+      "numero": "11.5",
+      "nombre": "Actividades de reconocimiento a la Comunidad",
+      "slug": "/actividades-reconocimiento-comunidad",
+      "intro": "<p>La Universidad La Salle tiene como lema al <i>“Indivisa Manent”</i>, cuyo significante subyace a la unidad de la comunidad en todos los aspectos de su quehacer formativo e integral, abarca lo educativo, lo científico, lo social, lo ambiental, lo tecnológico, lo ético y lo deportivo entre muchos otros, son parte indispensable de la formación que reciben los estudiantes de los diversos programas académicos de su oferta académica.</p>",
+      "portada": "/img/11/msbl_1.jpg",
+      "submenu": [
+        {
+          "nombre": "Introducción",
+          "slug": "/actividades-reconocimiento-comunidad"
+        },
+        {
+          "nombre": "Medalla San Juan Bautista de La Salle y Reconocimiento como Profesor Emérito",
+          "slug": "/medalla-lasalle-profesor-emerito"
+        },
+        {
+          "nombre": "Medalla Hermano Miguel Febres Cordero",
+          "slug": "/medalla-febres-cordero"
+        },
+        {
+          "nombre": "Reconocimiento por Antigüedad",
+          "slug": "/reconocimiento-antiguedad"
+        },
+        {
+          "nombre": "Gala Fratello",
+          "slug": "/gala-fratello"
+        },
+        {
+          "nombre": "Premios Indivisa Manent",
+          "slug": "/premios-indivisa-manent"
+        },
+        {
+          "nombre": "Premios CUE",
+          "slug": "/premios-cue"
+        },
+        {
+          "nombre": "Líderes FAMADyC",
+          "slug": "/lideres-famadyc"
+        },
+        {
+          "nombre": "Aula FAMADyC",
+          "slug": "/aula-famadyc"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+---
+layout: layout_page.njk
+title: Encuentro de Formación Docente
+description: null
+ogImg: null
+url: encuentro-formacion-docente
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Concientizar a los docentes lasallistas sobre la importancia e impacto que tiene la innovación dentro del aula, el reconocimiento de las condiciones generacionales, y las relaciones subyacentes entre la comunidad universitaria para transformar su práctica educativa en la formación de los estudiantes, conscientes sus las necesidades y oportunidades que ofrece la interacción educativa actual.
+        </p>
+        <p>
+          <b>Descripción:</b> En el mes de junio se realiza el Encuentro de Formación Docente que organiza la Vicerrectoría Académica a través de la Coordinación de Formación Docente, lleva 22 años de llevarse a cabo en el Auditorio Adrián Gibert de la Universidad La Salle; desde su puesta en marcha, se presentan temáticas de interés, tanto académico como formativo, que se abordan por invitados expertos, donde con regularidad, se incluyen a Hermanos de las Escuelas Cristianas ubicados en otros países, quienes exponen, desde su experiencia y perspectiva lasallista, el tema que se desea permear entre los asistentes al encuentro, profesores de nivel bachillerato, pregrado y posgrado, que se discuten en actividades multidisciplinarias mediante talleres que se alinean a la temática del encuentro.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 10) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/enc_doc_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/enc_doc_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

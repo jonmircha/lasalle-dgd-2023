@@ -1,0 +1,41 @@
+---
+layout: layout_page.njk
+title: Entrevista y Seguimiento Docente
+description: null
+ogImg: null
+url: entrevista-seguimiento-docente
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b>  Implementar una estrategia de acercamiento, diálogo y escucha con los maestros del claustro docente de Diseño Gráfico y Digital, a través de una entrevista empática entre pares con el jefe de carrera, que permita la apertura de canales de comunicación, conocimiento, valoración y reconocimiento de cada maestro como persona, profesionista y docente.
+        </p>
+        <p>
+          <b>Descripción:</b> La Entrevista Docente es una buena práctica que arranca en agosto del 2019 planteada en conveniencia por el Equipo Coordinador del PA ante una necesidad concreta de recuperar la cercanía con el claustro docente, fue buscar un momento privilegiado de conocimiento, escucha y diálogo específico con los maestros, el cual se ha tornado una experiencia enriquecedora al reconocer en cada maestro a una persona con una historia, con un referente familiar, gustos, aficiones, proyectos e identidad profesional y docente, que ha permitido valorarlo, conocerlo y reconocerlo. Para este momento se generó un instrumento de entrevista con tópicos específicos de interés de primera mano a desarrollar con los cuales se busca obtener información personal del maestro en los diferentes ámbitos de su persona: como el familiar, profesional, docente, lasallista. Es un momento de diálogo empático de pares en el que el jefe de carrera por espacio de 60 minutos logra escuchar y dialogar con sus maestros.
+        </p>
+        <p>
+          El impacto de esta práctica ha sido referente para asignaciones, participación y reconocimientos, ya que el espacio entre la autoridad y el maestro ha sido acortado, dejando canales reconocidos de diálogo para momentos posteriores.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 6) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/e_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/e_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

@@ -1,0 +1,38 @@
+---
+layout: layout_page.njk
+title: Asesorías Académicas
+description: null
+ogImg: null
+url: asesorias-academicas
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b>  Implementar un programa operativo de acompañamiento académico al estudiante que permite, a través de la asesoría con docentes especialistas, en el transcurso del semestre lectivo, clarificar dudas relacionadas a los temas, tareas, ejercicios, proyectos y procedimientos revisados en las asignaturas del semestre que cursan.
+        </p>
+        <p>
+          <b>Descripción:</b> El programa de Asesorías Académicas genera un espacio complementario de consultoría entre estudiantes y docentes especialistas en líneas académicas que permiten el acompañamiento en el desarrollo de tareas, escritos, ejercicios, proyectos y/o procedimientos sobre temáticas revisadas en las asignaturas del nivel que cursan. El equipo de asesores que pertenecen al programa cubre las líneas curriculares que el Programa Académico establece, éstas son: Teórico-metodológica, Cultura y Diseño, Proyectos, Gestión, Dibujo, Representación, Área Digital, Producción y áreas de profundización. Al inicio de cada semestre, se publica a la comunidad estudiantil los horarios de asesorías académicas en el que encontrarán apoyo con el equipo docente que las integra. Cuando un estudiante tiene la necesidad de consulta, puede ponerse en contacto con los profesores vía electrónica o presencial para aclarar dudas. El maestro registra el tema de la consulta en el Formato de Asesorías Académicas de Diseño Gráfico y Digital y el estudiante firma su asistencia. Este formato permite llevar un control que permite visualizar de qué semestre hay más solicitudes, de qué materias se solicita más apoyo y de manera más particular, una estadística sobre cuántas veces un estudiante requiere de asesoría y con ello detectar casos de bajo rendimiento académico. Este programa es un complemento académico que le permite a los estudiantes obtener una mejora en el desempeño integral ante actividades y problemas reales y contextualizados de sus asignaturas. Al final del período semestral, los docentes asignados a este servicio generan un reporte diagnóstico de la realización de estas asesorías. Los docentes identifican entonces, cuáles son las dudas más frecuentes, las asignaturas de las que requieren mayor clarificación y las áreas de oportunidad que identifican tanto en los procedimientos de los estudiantes como en el programa mismo. Estos reportes se envían a la jefatura para su revisión y a partir de ellos, generar acciones de mejora para el programa de Asesorías Académicas.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 4) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/aa_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/aa_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

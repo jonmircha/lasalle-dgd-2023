@@ -1,0 +1,38 @@
+---
+layout: layout_page.njk
+title: Cursos de Formacion Docente
+description: null
+ogImg: null
+url: cursos-formacion-docente
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Diseñamos, implementamos y damos seguimiento a una oferta educativa de calidad en colaboración con las diversas unidades académicas y formativas, por medio de diplomados, cursos y talleres, tanto en línea como de forma presencial para promover la formación continua del personal docente en pro de la mejora de su práctica educativa (Vicerrectoría Académica de la Universidad La Salle México. Coordinación de Formación Docente, s.f.).
+        </p>
+        <p>
+          <b>Descripción:</b> La Coordinación de Formación Docente, a través de su oferta educativa exclusiva y sin costo para el personal activo de la Universidad La Salle Ciudad de México, promueve la transformación de las prácticas educativas del claustro académico, por medio de acciones, programas y proyectos, a favor de la formación integral de los estudiantes, a través de la Política y Programa Institucional de Formación Docente, el Sistema de Evaluación Docente y el Plan de Vida y Desarrollo del Personal Académico (Vicerrectoría Académica de la Universidad La Salle México. Coordinación de Formación Docente, s.f.).
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 3) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/cfd2_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/cfd2_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

@@ -1,0 +1,38 @@
+---
+layout: layout_page.njk
+title: Premios Indivisa Manent
+description: null
+ogImg: null
+url: premios-indivisa-manent
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Reconocer a los profesores de preparatoria, pregrado, posgrado y áreas de formación de la Universidad La Salle a través de la entrega del Premio Indivisa Manent, que otorgan los estudiantes durante la ceremonia con el mismo nombre, para distinguirlos por su destacada labor de enseñanza y servicio de excelencia académica con enfoque humanista.
+        </p>
+        <p>
+          <b>Descripción:</b> En reconocimiento a la labor del claustro docente y colaboradores de la Universidad La Salle, por parte de los estudiantes, se realiza la entrega de Premios Indivisa Manent; durante una ceremonia que se celebra cada año en el mes de marzo, se reconocen a docentes y administrativos que imparten clase en los niveles de Preparatoria, Pregrado, Posgrado y Áreas de Formación. Este reconocimiento lo otorgan los estudiantes mediante votaciones tomando en cuenta a las profesoras y profesores con una destacada labor de enseñanza y servicio en el proceso de formar Profesionales con Valor, de excelencia académica con enfoque humanista. Durante la ceremonia, participan integrantes de las representaciones estudiantiles de escuelas y facultades, así como miembros del Consejo Universitario Estudiantil (Hoy en La Salle, s.f.).
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 8) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/prem_indivisa_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/prem_indivisa_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

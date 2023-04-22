@@ -1,0 +1,34 @@
+---
+layout: layout_page.njk
+title: Proyectos orientados al Estudiante
+description: null
+ogImg: null
+url: proyectos-estudiante
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          Las acciones de la coordinación del programa académico de diseño gráfico y digital se enfocan primordialmente al aprendizaje, vinculación social, proyección profesional del estudiante, estos proyectos extracurriculares se realizan con regularidad durante su formación, se orientan a la construcción de los aprendizajes de la disciplina y a la construcción del sentido de pertenencia y orgullo por pertenecer a la Universidad La Salle México. Las estrategias que han implementado por las coordinaciones del programa académico en los últimos 15 años han fortalecido las interacciones de nuestros estudiantes y las perspectivas antes mencionadas. La realización de estos proyectos extracurriculares, fortalecen la formación de los estudiantes, abarca otros ámbitos que abona a la integralidad de un profesionista lasallista, y al mismo tiempo, su propia proyección en el mundo profesional, en este sentido, las actividades de la licenciatura se suman a las institucionales, y complementan la visión 360 en la persona.
+        </p>
+        <ol class="my-5">
+          {% for el in site.menuCarpeta11[2].submenu %}
+            {% if loop.index0 > 0 %}
+              <li class="fs-5">
+                <a href="{{ el.slug }}" class="">{{ el.nombre | safe }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ol>
+        <img src="{{site.menuCarpeta11[2].portada}}" alt="{{title}}" class="img-fluid">
+      </article>
+    </section>
+  </div>
+</main>

@@ -1,0 +1,38 @@
+---
+layout: layout_page.njk
+title: Consejo Consultivo
+description: null
+ogImg: null
+url: consejo-consultivo
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Convocar a nombre de la Facultad Mexicana de Arquitectura Diseño y Comunicación a reconocidos y renombrados profesionistas en el medio en su disciplina, para participar de manera honoraria y permanente por un período de trianual como consejeros de cada disciplina en temas relacionados al mundo laboral, tendencias, nuevas capacidades y competencias de los egresados, actualización curricular, prácticas profesionales, identidad lasallista, vinculaciones, a fin de reconocer la pertinencia y coherencia de la propuesta formativa del programa académico y las áreas de oportunidad para su actualización.
+        </p>
+        <p>
+          <b>Descripción:</b> El Consejo Consultivo es una propuesta de la facultad desde hace 12 años de poder convocar a profesionales reconocidos en el campo profesional de cada disciplina, con el beneficio de poder dialogar en favor de la formación profesional de cada programa académico. Se sesiona una vez al semestre por las tarde-noche con una agenda del día, además que cada programa retoma la consejería de manera particular con el fin de implementar estrategias y acciones pertinentes de actualidad que ayuden a mantener la calidad formativa del programa en vistas al egreso de sus estudiantes.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 6) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/cons_cons_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/cons_cons_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

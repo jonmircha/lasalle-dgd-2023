@@ -1,0 +1,39 @@
+---
+layout: layout_page.njk
+title: Congreso Future Design
+description: null
+ogImg: null
+url: congreso-future-design
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Exponer la actualidad, tendencias y oportunidades que poseen las áreas del diseño en las que se desarrollan profesionalmente nuestros egresados, claustro docente y colaboradores asociados, mediante la presentación de proyectos significativos integrados en ponencias que abordan temáticas específicas, organizadas por la coordinación del programa académico, para inspirar a nuestros estudiantes y hacerlos conscientes de la coyuntura en el que se encuentra la disciplina del diseño gráfico y digital.
+        </p>
+        <p>
+          <b>Descripción:</b> Esta actividad se visualizó originalmente como un espacio de reflexión del quehacer profesional de los colaboradores asociados mediante charlas con estudiantes durante el semestre, nace originalmente con el nombre de “Hablamos Diseño”, sin embargo, se replanteó la estrategia para realizarlo en una jornada de varios días, donde se abordaran temáticas de tendencia, como el futuro del diseño, la propuesta del portafolio profesional, las nuevas habilidades de los diseñadores respecto a la oferta laboral, el metaverso y las oportunidades de integración del diseño a esta nueva realidad, entre otros; la primera temática que se abordó, dio pie a nombrarlo Congreso Future Design, ya que es importante para nosotros, reconocer la proyección que tenga la profesión. Una de las premisas de este congreso, es siempre invitar a ponentes que son egresados, considerados como la representes de las formación profesional que se logra desde nuestro programa académico, su evolución y transformación con respecto a las necesidades de las nuevas realidades que la sociedad y el mercado laboral exigen; otro factor importante a considerar para este proyecto, es contar con la representación del claustro docente, ya que, los estudiantes sólo ven al profesor como mediador o facilitador del aprendizaje, y pocas veces lo ven como profesionista del diseño, por lo que, es importante también que  exponga su quehacer profesional y se reconozca el valor que representa la experiencia combinada con el aprendizaje. Por último, el tercer integrante de la estrategia de este congreso, los colaboradores asociados, despachos y estudios de diseño que, con mucho gusto apoyan la iniciativa de acercar a los estudiantes, desde su perspectiva y experiencia, las realidades actuales que subyacen a la profesión del diseño gráfico; nos ofrecen siempre un panorama actualizado sobre lo que se requiere y están buscando en un profesionista del diseño, pasando por las capacidades necesarias para resolver problemas de comunicación visual, así como las habilidades blandas que son indispensables en una globalidad omnipresente.
+
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 13) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/cfd_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/cfd_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

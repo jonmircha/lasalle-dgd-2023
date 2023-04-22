@@ -1,0 +1,38 @@
+---
+layout: layout_page.njk
+title: Visita al Aula
+description: null
+ogImg: null
+url: visita-aula
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b>  Verificar las actividades académicas y formativas que los profesores del claustro docente de diseño gráfico y digital realizan durante sus clases, establecidas en el Syllabus de su asignatura, taller o laboratorio, mediante la visita de las coordinaciones y jefatura de la licenciatura en los espacios de la facultad, para determinar los avances programados, revisar los procesos de seguimiento del estudiante, analizar la pertinencia de sus entregas, y establecer un diálogo abierto y cordial entre autoridad y profesor.
+        </p>
+        <p>
+          <b>Descripción:</b> Como estrategia del programa académico para establecer un diálogo de confianza con los profesores de su claustro docente, se realizan acciones que tiene como meta el acercamiento fraterno que fortalece la comunicación y construye relaciones virtuosas que sirven como amalgama para tener una visión compartida del proyecto académico que deseamos lograr. Después de la entrevista que realiza la jefatura de carrera con cada profesor, se da un tiempo durante el semestre, para realizar la visita al salón de clase, puede ser programada, por invitación o en algún momento no específico. En esta visita se evalúan algunos rubros como puntualidad, dominio de los temas, microenseñanza, mediación, interacción personal con sus estudiantes y pares, aprendizaje significativo, entre otros, con esta información se realimenta al profesor en subsecuentes entrevistas, lo que tendría que asegurar el cumplimiento de todos los rubros aplicados a la visita.
+        </p>
+      </article>
+    </section>
+{#     <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 6) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/e_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/e_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section> #}
+  </div>
+</main>

@@ -1,0 +1,38 @@
+---
+layout: layout_page.njk
+title: Líderes FAMADyC
+description: null
+ogImg: null
+url: lideres-famadyc
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Fortalecer el liderazgo de los alumnos de la Facultad Mexicana de Arquitectura, Diseño y Comunicación de la Universidad La Salle a través de pláticas, dinámicas, momentos de reflexión y actividades recreativas para que se asuman como líderes y logren la integración del grupo dentro de un ambiente de confianza, comunicación, negociación y trabajo en equipo.
+        </p>
+        <p>
+          <b>Descripción:</b> Este proyecto se realiza año con año en Casa Tetela La Salle, que se ubica en la ciudad de Cuernavaca, Morelos. Durante dos días se reunen estudiantes que representan a las cinco licenciaturas que se cuentan con características de liderazgo, se invita a una persona por generación, por lo que se tienen alrededor de 25 líderes; en este espacio de Morelos, se da un encuentro con las autoridades de la Facultad, quienes proponen dinámicas, charlas, momentos de reflexión y convivencia, que forman y fortalecen el liderazgo los estudiantes. Con esta estrategia se busca la cercanía con los grupos, potenciar representatividad de los estudiantes en los consejos universitarios, así como el apoyo para diversos proyectos curriculares y extracurriculares donde se involucren a sus compañeros.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 13) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/lid_fam_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/lid_fam_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

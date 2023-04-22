@@ -1,0 +1,34 @@
+---
+layout: layout_page.njk
+title: Proyectos gestionados por el programa académico
+description: null
+ogImg: null
+url: proyectos-gestionados-programa-academico
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          La coordinación del programa académico de diseño gráfico y digital gestiona diversas actividades que corresponden a mandatorios institucionales y acciones enfocadas al fortalecimiento de la formación profesional de nuestros estudiantes, a través de procesos de mejora continua, vinculación académica con universidades hermanas del Sistema de Universidades La Salle, así como con el campo laboral, reconocimiento y cercanía del claustro académico, evaluación de los aprendizajes interna y externa estandarizada, difusión de los resultados de proyectos que se desarrollan en las aulas y talleres de la facultad. Todas estas acciones se fundamentan en la planeación estratégica del programa académico, que se alinea transversalmente con el de la facultad y el institucional, y que responden a las necesidades que surgen de la operación diaria de la facultad.
+        </p>
+        <ol class="my-5">
+          {% for el in site.menuCarpeta11[3].submenu %}
+            {% if loop.index0 > 0 %}
+              <li class="fs-5">
+                <a href="{{ el.slug }}" class="">{{ el.nombre | safe }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ol>
+        <img src="{{site.menuCarpeta11[3].portada}}" alt="{{title}}" class="img-fluid">
+      </article>
+    </section>
+  </div>
+</main>

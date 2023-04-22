@@ -1,0 +1,41 @@
+---
+layout: layout_page.njk
+title: Graphic Design Showroom
+description: null
+ogImg: null
+url: graphic-design-showroom
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Exponer, por parte de los estudiantes de último semestre de la licenciatura en Diseño Gráfico y Digital, un portafolio de proyectos desarrollados durante su formación profesional a expertos en diversas áreas del diseño, representantes de estudios y despachos reconocidos en el medio local y global, a través de un simulador de entrevistas que les permita tener una retroalimentación respecto a su exposición, argumentación y propuestas de diseño, así como reconocer sus áreas de mejora, y posiblemente recibir su primera oportunidad por parte de los invitados, para integrarse a la vida profesional como diseñador gráfico y digital.
+        </p>
+        <p>
+          <b>Descripción:</b> Se puede decir que este proyecto, se considera como de mayor impacto para el programa académico de diseño gráfico y digital, nace en 2010 como un ejercicio de simulación de entrevistas y presentación de portafolio de proyectos frente a profesionistas reconocidos por su trayectoria profesional, identificados como colaboradores asociados, casi siempre, directores y dueños de los despachos más reconocidos en branding, packaging, identidad, interactividad web, Motion Graphics, estrategia y animación, por mencionar solo algunos; los invitados que acuden con regularidad a este proyecto prestigio son, Sol Consultores, Ideograma, Landor & Fitch, Interbrand, Ogilvy, Leo Burnett, Bamf, Design Bureau, LERF Design, Sociedad Fantasma, X-Design, F3 Brands y Archer Troy, entre otros; es importante mencionar que la gran mayoría de estos despachos y estudios estás integrados por egresados de nuestra licenciatura, y otros son propietarios, lo que permite evidenciar las fortaleza y oportunidades de mejora desde el nuestro quehacer académico, ya que siempre existe retroalimentación directa entre los invitados y la coordinación de la licenciatura.
+        </p>
+        <p>
+          Este proyecto se estructura a través de las siguientes actividades: se invita a los estudiantes de octavo semestre que deseen participar y se pide que reúnan los proyectos que diseñaron en los talleres de diseño más significativos y con calidad de exposición; se realiza, lo que llamamos Pre-Graphic Design Showroom, donde profesores de taller revisan junto con los alumnos para definir los trabajos que integrarán su portafolio; en el mes de abril se envían invitaciones a los despachos, y se publica la página web que presenta a los invitados que se asisten a través de un pequeño resumen de su trabajo y ligas a sus sitios web o redes sociales, asimismo se muestran  los portafolios de los participantes, y la posible logística de las exposiciones; los estudiantes de segundo a sexto semestres seleccionan, a través de una inscripción, la sala con el invitado que quieren escuchar, o del compañero de último semestre que les interesa observar su trabajo;  en mayo se realiza la primera actividad en diversas salas asignadas por la Universidad; un segundo momento se presenta cuando, mediante una selección de las mejores exposiciones y portafolio, se presentan de nuevo los estudiantes con los invitados, que exponen los ajustes mencionados en la primera etapa, y ahora, con la posibilidad de recibir propuestas de trabajo en sus despachos y estudios. Se puede decir que aproximadamente un 80% de los participantes en nuestro Graphic Design Showroom logran integrarse al mercado laboral del diseño gráfico a través de este simulador. 
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 11) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/gd_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/gd_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

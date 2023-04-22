@@ -1,0 +1,38 @@
+---
+layout: layout_page.njk
+title: Matriz de Cumplimiento Docente
+description: null
+ogImg: null
+url: matriz-cumplimiento-docente
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Evaluar al claustro docente del programa académico de diseño gráfico y digital a través de un instrumento que mide en forma cuantitativa la responsabilidad sobre su formación académica y profesional, gestión docente, participación con la coordinación, generación de material pedagógico, actividades extracurriculares y proyectos institucionales, para obtener parámetros que sirven a la coordinación para apoyar a los profesores en el cumplimiento de sus compromiso con respecto a los indicadores mencionados.
+        </p>
+        <p>
+          <b>Descripción:</b> La matriz de cumplimiento docente se diseñó para medir el grado de compromiso de los profesores con la universidad, la facultad y el programa académico; originalmente se propuso como un instrumento que permitiera a la coordinación, evaluar las dimensiones de responsabilidad que subyacen al ser colaborador de la Universidad La Salle, que a través del resultado obtenido y su rendimiento de la evaluación docente que reporta la vicerrectoría académica, se buscaba asignar materias a cada profesor, sin embargo, después de valorar los datos arrojados por el instrumento al ser la primera vez que se utilizaba, se llegó al acuerdo entre la coordinación de la licenciatura que esta herramienta se tendría que utilizar como guía para implementar acciones que impulsaran la participación gradual en los aspectos antes mencionados, y en un lapso de tiempo determinado, darle la función para la que se diseñó.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 6) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/mcd_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/mcd_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

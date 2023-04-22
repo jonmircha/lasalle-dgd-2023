@@ -1,0 +1,17 @@
+{
+  "name": "eleventy-la-salle",
+  "version": "1.0.0",
+  "description": "🦊 A simple, minimalist and vanilla flavored starter kit for eleventy",
+  "main": "index.html",
+  "scripts": {
+    "install": "npm install @11ty/eleventy --save-dev",
+    "start": "npx @11ty/eleventy --serve --port=7777",
+    "build": "npx @11ty/eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

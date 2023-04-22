@@ -1,0 +1,46 @@
+---
+layout: layout_page.njk
+title: Design Tour
+description: null
+ogImg: null
+url: design tour
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Reconocer las tendencias actuales del diseño gráfico, su aplicación en estrategias de comunicación visual mediante las presentaciones que se realizan durante las visitas a espacios, estudios, despachos y agencias que cuentan con perfiles alineados a la innovación, ubicados en la ciudad de Nueva York, y que son reconocidos a través de su propuesta de diseño a nivel local y global, para logar que nuestros estudiantes identifiquen las áreas donde pueden insertarse como egresados, y verificar la pertinencia de su formación profesional que les ofrece la Universidad La Salle México.
+        </p>
+        <p>
+          <b>Descripción:</b> La estrategia de la FAMADYC y del programa académico para impulsar las actividades extracurriculares a nivel internacional se establece con base en las metas que define la Rectoría de la Universidad La Salle, que se encuentran en su plan de desarrollo institucional, y que tiene como línea estratégica la internacionalización de la comunidad universitaria. Este proyecto de Design Tour comienza en 2010 con la primera visita a la ciudad de Nueva York, desde entonces se han propuesto realizar estas visitas a Barcelona, a Los Ángeles y San Francisco, sin embargo, se da prioridad a la primera ciudad que visitamos históricamente, por la pertinencia de encontrar la mayoría de representaciones de las principales agencias, estudios y despachos de diseño en el mundo, lo que nos permite contar con un amplio abanico de oportunidades de vinculación entre la academia y la actividad profesional del diseño a nivel global; algunas de las agencias que se han visitado y que se ubican en Nueva York son Ogilvy, Interbrand, Hello Monday, Pentagram, Vault49, StinkStudios, Chefmayer & Geismar & Haviv, Huge Studios, Code and Tehory, Fantasy Interactive, Method y First Born, entre otros. 
+        </p>
+        <p>
+          El Design Tour se lleva a cabo en el mes de diciembre o enero, durante el periodo de receso entre semestres, espacio de tiempo en el cual, nuestros estudiantes tienen la posibilidad para salir de viaje; los estudios que contactamos para estas visitas tienen más de tiempo que ofrecernos para durante nuestra estancia en sus oficinas, ya que se encuentran en el cierre o inicio de actividades profesionales; normalmente se les pide un par de horas, en las que se presentan casos de éxito, procesos y flujos de trabajo, y una actividad importante y significativa que hemos impulsado que se realice, y que por iniciativa de los estudiantes más avanzados, revisar algunos de los portafolios que presentan y recibir retroalimentación, lo que les permite aterrizar los aprendizajes y su quehacer como diseñadores gráficos formados desde lo glocal. 
+
+        </p>
+        <p>
+          Nuestro viaje contempla una duración de siete días aproximadamente, tiempo durante el cual, se organizan las actividades en tres sentidos, despachos, cultura y turismo; es necesario comentar que en tiempos de pre-pandemia por la COVID-19, se visitaban de 10 a 12 estudios y algunos espacios culturales como museos y sitios turísticos de la ciudad; en este sentido, con la nueva normalidad, el trabajo a distancia se convirtió en un esquema de común para los estudios, por lo que, la última vez que hicimos este viaje, se lograron cuatro citas a despachos y se complementó con visitas a museos como el MoMA, el MET, el MAD y el Brooklyn Museum entre otros espacios. Podemos asegurar que el viaje a Nueva York, la interacción con los estudios y los espacios culturales que se visitan, le otorgan al estudiante la noción y dimensión de los alcances de la profesión en la que se está formando, asimismo, resulta inspirador para ellos hablar de diseño con las personas que, a su vez, están generando las tendencias glocales actuales, y que abren oportunidades para desarrollar su creatividad en cualquier ámbito y área del diseño en México alrededor del mundo.
+
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 17) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/dt_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/dt_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

@@ -1,0 +1,50 @@
+---
+layout: layout_page.njk
+title: Mejora Continua 2017-2023 | Universidad La Salle
+description: Mejora Continua 2017-2023 Licenciatura en Diseño Gráfico y Digital
+ogImg: null
+url: mejora-continua
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1">
+        <p>
+          La licenciatura en Diseño Gráfico y Digital de la Universidad La Salle México se encuentra en la Facultad Mexicana de Arquitectura, Diseño y Comunicación, que cuenta con casi 60 años en la formación profesional de hombres y mujeres a través de programas académicos de excelencia, de vanguardia e interacción multidisciplinaria con los sectores productivos, conscientes de los retos profesionales que subyacen a las necesidades sociales de los entornos local y global, y que cumplen con la misión y visión institucionales.
+        </p>
+        <p>
+          El programa académico de Diseño Gráfico y Digital cumple 33 años como oferta educativa en la Universidad La Salle México, nace gracias a la visión del Hno. José Cervantes en 1990 y al reconocimiento de las tendencias profesionales de esa época, donde el diseño gráfico en México está consolidándose como disciplina y profesión.
+        </p>
+        <p>
+          Durante estos años, gracias a las gestiones de los directores que han pasado por la FAMADyC, el Arq. Óscar Castro, el Arq. Óscar Gossenheim, el Mtro. Jorge Iturbe (director actual) y el Arq. Homero Hernández, se ha dado impulso a la construcción de relaciones académicas y profesionales con instituciones gremiales, como por ejemplo, ser fundadores de la Asociación Nacional de Escuelas de Diseño Gráfico ENCUADRE; ser acreditada dos veces por el Consejo Mexicano para la Acreditación de Programas de Diseño COMAPROD; ser parte de las Asociaciones Latinoamericanas de las Carreras de Diseño Gráfico + Arte, y Carreras de Diseño Multimedia / Digital de la Universidad de Palermo, en Buenos Aires Argentina; así como integrante del Padrón EGEL de Programas de Alto Rendimiento Académico del CENEVAL, gracias a que nuestros egresados han obtenido el Premio CENEVAL al Desempeño de Excelencia en el Examen General de Egreso de Licenciatura. Estas relaciones se han desarrollado gracias a los proyectos que, desde la gestión del programa académico, se proponen como una extensión de la formación profesional, que cambia con las momentos históricos y evolutivos de la disciplina, y que sirven de impulso para mejorar la experiencia de los estudiantes con base en las necesidades de vinculación y convertirlos en agentes de cambio profesional y social.
+        </p>
+        <p>
+          A continuación, se presenta y argumenta cada uno de los proyectos que se realizan en los niveles institucional, desde la facultad y la disciplina del diseño gráfico y digital, que cumplen con objetivos y características particulares, a partir de las relaciones académico-profesionales, que fortalecen su práctica en el aula, que va desde la interacción con proyectos de impacto social y económico, así como con su intencionalidad de la mejora continua en las áreas de oportunidad identificadas por la coordinación de la licenciatura y el claustro docente. Cabe mencionar que los proyectos expuestos, se dirigen a la toda comunidad de la licenciatura, dan contexto y soporte con el que se presenta el instrumento de autoevaluación de la tercera acreditación, que permite entender, desde sus conceptos fundacionales, todos aquellos quehaceres académicos, formativos, docentes y sociales que nos distinguen como un programa con altos estándares de calidad educativa.
+        </p>
+      </article>
+    </section>
+    {% for el in site.menuCarpeta11 %}
+      <section class="row my-5 p-3 card-prestigio align-items-lg-center">
+        <article class="col-12 col-lg-8">
+          <div class="d-flex align-items-center my-3">
+            <span class="d-block rounded-circle p-3 me-3 fw-bold bg-red-salle text-white">{{ el.numero }}</span>
+            <h2 class="m-0">{{ el.nombre | safe }}</h2>
+          </div>
+          {{ el.intro | safe }}
+          <a href="{{ el.slug }}" class="mb-5">Ver más <i class="bi bi-chevron-right"></i></a>
+        </article>
+        <article class="col-12 col-lg-4">
+          <img class="img-fluid" src="{{ el.portada }}" alt="{{ el.nombre }}">
+        </article> 
+      </section>
+    {% endfor %}
+  </div>
+</main>
+
+
+

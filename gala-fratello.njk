@@ -1,0 +1,38 @@
+---
+layout: layout_page.njk
+title: Gala Fratello
+description: null
+ogImg: null
+url: gala-fratello
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Reconocer las actividades, proyectos, logros relevantes y destacados de los docentes, estudiantes y egresados de la Facultad Mexicana de Arquitectura, Diseño y Comunicación, realizados dentro y/o fuera de la institución, mediante un magno evento con la participación de autoridades, cuerpo docente, comunidad estudiantil y comunidad de padres de familia, a fin de celebrar el talento, el profesionalismo y la trascendencia académica de su comunidad.
+        </p>
+        <p>
+          <b>Descripción:</b> El evento se ha gestado como una celebración anual al reconocimiento del trabajo de los integrantes de la comunidad de la Facultad.  A partir de la publicación de la Convocatoria, se invita a la comunidad de estudiantes, profesores y egresados que finalizaron sus estudios en el ciclo escolar anterior, a presentar sus actividades, proyectos y logros alcanzados. Las categorías consideradas para este reconocimiento por parte de la Facultad son: 1. Participación proactiva en proyectos de la facultad y la institución. 2. Iniciativas profesionales independientes. 3. Presencia en medios de comunicación. 4. Publicaciones. 5. Premios en concursos. 6. Representación de la ULSA y/o de la facultad en actividades académicas externas. 7. Distinciones y reconocimientos en instituciones y organismos externos a la ULSA. 8. Labor social y humanitaria. 9. Labor artística. 10. Proyectos Académicos. A partir de esta categorización, el Programa Académico determina las asignaturas pertinentes a la participación de la Convocatoria. Los docentes pueden proponer trabajos de estudiantes que se hayan destacado en sus asignaturas, así como los estudiantes pueden proponer sus proyectos finales ya sea de manera individual o en equipo. Los trabajaos que se reciben para ser considerados se revisan a partir de un Consejo de Selección de Proyectos que permite elegir a partir de los parámetros y categorías establecidos, a los premiados. Una vez finalizada la selección, se realiza una ceremonia magna en el Auditorio Adrián Gibert en el que los estudiantes y docentes, acompañados de sus familias, reciben el reconocimiento a su desempeño, calidad y compromiso de trabajo.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 8) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/fratello_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/fratello_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

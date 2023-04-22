@@ -1,0 +1,37 @@
+---
+layout: layout_page.njk
+title: Proyecto Prestigio
+description: null
+ogImg: null
+url: proyecto-prestigio
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          Los proyectos prestigio de la Facultad Mexicana de Arquitectura, Diseño y Comunicación tiene como objetivo vincular a la academia con el entorno económico, profesional y social a través de la participación activa de autoridades, claustro docente, estudiantes, egresados y colaboradores asociados (profesionistas, estudios, despachos, agencias, asociaciones sin fines de lucro, etc.), para fortalecer los programas académicos de pregrado y posgrado mediante el reconocimiento de áreas de oportunidad, y que se distinguen por su calidad y pertinencia. Estas actividades se desarrollan a través de relaciones virtuosas entre academia y el mundo profesional, asimismo se reconocen entre la comunidad de la facultad como eventos extracurriculares que ofrecen oportunidades de crecimiento en lo personal y aplicación de los aprendizajes desarrollados en las aulas, talleres y laboratorios.
+        </p>
+        <p>
+          Los proyectos prestigio aquí presentados, han sido creados durante las gestiones de las jefaturas de carrera que han encabezado a la licenciatura en sus periodos correspondientes, Mtra. Aurora Maltos Díaz, Taller Vertical de Vinculación Social de Diseño Gráfico y Digital,  Graphic Design Showroom, Concurso Inter Universitario La Salle, Aula FAMADyC, Gala Fratello y Líderes FAMADyC; Mtro. Aarón Paredes Fernández de Lara, Congreso Future Design, Seminario Docente de Diseño, Cursos de Actualización Académica, Repaso EGEL-CENEVAL, Actividad Curricular Complementaria y Design Tour; Mtro. Gabriel García Reynoso, Diplomado en la Didáctica del Diseño, Entrevista y Seguimiento Docente, Visita al Aula, Aula sin Fronteras, Evaluación de Nivel, Vinculación Inter La Salle, Práctica en el Campo Profesional, Exposición DGD D+ y Publicaciones de investigación educativa para el diseño. Todos estos proyectos han sido gestionados con el apoyo y compromiso de las coordinaciones que complementan a la jefatura, DCG. Adriana Gómez Maganda Mercado, Mtra. Nora Alicia Espino Amor y Mtro. José Luis Sánchez Cuervo.
+        </p>
+        <ol class="my-5">
+          {% for el in site.menuCarpeta11[0].submenu %}
+            {% if loop.index0 > 0 %}
+              <li class="fs-5">
+                <a href="{{ el.slug }}" class="">{{ el.nombre | safe }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ol>
+        <img src="{{site.menuCarpeta11[0].portada}}" alt="{{title}}" class="img-fluid">
+      </article>
+    </section>
+  </div>
+</main>

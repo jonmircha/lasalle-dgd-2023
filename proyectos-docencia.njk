@@ -1,0 +1,37 @@
+---
+layout: layout_page.njk
+title: Proyectos Docencia
+description: null
+ogImg: null
+url: proyectos-docencia
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          En la Universidad La Salle y la Facultad Mexicana de Arquitectura, Diseño y Comunicación se impulsa el fortalecimiento del Claustro Académico a través de actividades orientadas a su formación a través de capacitación en tendencias educativas que subyacen a las necesidades sociales que la institución define continuamente; al desarrollo de habilidades digitales y de estrategias de aprendizaje-enseñanza mediada por tecnología, que cabe decir, a consecuencia de la pandemia por la COVID-19, obligó a poner en práctica muchas de estas capacidades adquiridas para facilitar conocimientos con base en las nuevas plataformas tecnológicas. En este mismo sentido, la institución impulsa la formación lasallista de sus profesores a través de estrategias que coadyuban a construir identidad y a desarrollar sentido de pertenencia mediante la capacitación para la apropiación del modelo educativo de la Universidad La Salle.
+        </p>
+        <p>
+          Para el programa académico de diseño gráfico y digital tiene, como una de sus funciones estratégicas y primordiales, la cercanía con profesores, que se estructura mediante acciones que permiten construir un claustro académico sólido, comprometido con la coordinación y con la comunicación; se realizan entrevistas personales con la jefatura de carrera, así como el seguimiento dentro del aula, lo que favorece el logro de objetivos de aprendizaje en las asignaturas y talleres. En este sentido, y relacionado con el seguimiento que se hace a los profesores, también se cuenta con un instrumento que evalúa los aspectos de gestión académica y administrativa, de cumplimiento docente, de su capacitación en los ámbitos profesionales e institucionales, así como en los apoyos requeridos por el equipo de coordinación de la licenciatura; esta matriz coadyuba a tener datos duros sobre las actividades docentes, y funciona para la toma de decisiones respecto al desarrollo de nuestro claustro académico.
+        </p>
+        <ol class="my-5">
+          {% for el in site.menuCarpeta11[1].submenu %}
+            {% if loop.index0 > 0 %}
+              <li class="fs-5">
+                <a href="{{ el.slug }}" class="">{{ el.nombre | safe }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ol>
+        <img src="{{site.menuCarpeta11[1].portada}}" alt="{{title}}" class="img-fluid">
+      </article>
+    </section>
+  </div>
+</main>

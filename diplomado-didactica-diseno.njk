@@ -1,0 +1,58 @@
+---
+layout: layout_page.njk
+title: Diplomado en Didáctica para el Diseño
+description: null
+ogImg: null
+url: diplomado-didactica-diseno
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> El centro de la reflexión del diplomado es la didáctica. Entender la didáctica como la traducción de los idearios educativos en acciones desarrolladas por profesores y estudiantes; que implica favorecer en los profesores mediante la intencionalidad educativa, la selección de los contenidos y programación de las actividades de aprendizaje, y la consideración ineludible de los intereses de sus estudiantes, para entender que la didáctica, nunca es neutral, siempre está mediada por la ideología particular de profesores, estudiantes y de la comunidad académica. 
+        </p>
+        <p>
+          <b>Descripción:</b> Propósito General: Al finalizar el diplomado, los participantes habrán realizado una reflexión crítica sobre su trabajo didáctico, con el fin de que puedan incorporar formas innovadoras de intervención educativa que promuevan en sus estudiantes aprendizajes significativos sobre los diseños, en un contexto social, cultural y económico, heterogéneo y dinámico.
+        </p>
+        <p>
+          Propósitos particulares:
+        </p>
+        <ul>
+          <li>Dialogar en torno a los principales enfoques y marcos teóricos prevalentes en las reflexiones contemporáneas sobre el diseño, con el fin de fortalecer el pensamiento crítico de los profesores.</li>
+          <li>Compartir a otros las particulares experiencias docentes, identificando, sobre todo, aquéllas que podría considerarse como “casos de éxito”, para resignificar y revalorar el trabajo particular de cada profesor.</li>
+          <li>Interpretar la propia postura didáctica, en el contexto de la educación superior del diseño en el ámbito particular lasallista, con el fin de establecer estrategias de enseñanza y aprendizaje consistentes con el Modelo Educativo La Salle.</li>
+          <li>Co-evaluar la didáctica entre los propios participantes, para identificar las estrategias y comportamientos que favorecen la mediación.</li>
+        </ul>
+        <p>
+          Reto como propuesta de formación docente de DGD:
+        </p>
+        <ul>
+          <li>Deconstruir la mentalidad dicotómica prevaleciente en el campo de la educación superior del diseño y la comunicación gráfica, problematizar y superar el razonamiento dicotómico.</li>
+          <li>Considera que sigue imperando la separación entre la teoría y la práctica, entre la mente y el cuerpo, entre la expresión y el contenido, entre la razón y las emociones. Así, por ejemplo, la lectura, el análisis de la discusión de textos, la escritura, son actividades que no forman parte de los hábitos didácticos de las profesoras de los denominados talleres de diseño o materias proyectuales.</li>
+          <li>Poner a discusión la noción de creatividad.</li>
+          <li>No reducir la aprendizaje y aplicación de metodologías ‘científicas’, pero tampoco ocultarlo debajo del manto de la intuición individual y la subjetividad.  Es hacer que ejerzan la razón problemática que, entre otras características implica el ejercicio de la inteligencia contextual. (señalar las rutas para concebir la creatividad).</li>
+          <li>Desarrollar la razón problemática en congruencia con el modelo de pedagogía sociocognitiva de La Salle, utilizar la tradición proyectual de la didáctica del diseño, para que los estudiantes se enfrenten a problemas, casos y/o prácticas, en los cuales ellos transfieran los conceptos y teorías presentadas en las clases.</li>
+          <li>Lograr construir identidad profesional como profesores. Ser profesor posee su propia complejidad; se es profesor si se asume la responsabilidad de provocar los aprendizajes de los estudiantes, si se coopera con el desarrollo de su autonomía y con el ejercicio del pensamiento crítico y si los profesores coadyuvamos con la construcción de su ciudadanía y formación integral hoy.</li>
+        </ul>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 2) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/dididi_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/dididi_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

@@ -1,0 +1,38 @@
+---
+layout: layout_page.njk
+title: Metodología para el pensamiento de diseño La Salle
+description: null
+ogImg: null
+url: pensamiento-diseno
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Desarrollar, en los estudiantes del programa académico de diseño gráfico y digital, el proceso metodológico de diseño centrado en las personas “Design Thinking”, a través de la aplicación del modelo doble diamante en el Taller de Proyectos de Diseño que se cursa en tercer semestre, para lograr su implementación en los proyectos que diseñen durante toda su formación profesional, y de este modo, establecer un método a medida para la Universidad La Salle.
+        </p>
+        <p>
+          <b>Descripción:</b> En el último curso del Taller de Proyectos de Diseño en 2022, se inició el proyecto para implementar la metodología Design Thinking a través del modelo Doble Diamante del British Design Council, base del diseño centrado en las personas, y dirigido a los estudiantes de tercer semestre de diseño gráfico y digital. Esta propuesta nace por iniciativa del Mtro. Aarón Paredes, quien se ha especializado en la metodología, y la ha aplicado para el desarrollo del Proyecto Terminal de aplicación Profesional en el último año del programa académico, que con apoyo del Mtro. Javier Echavarría, quien enseña estas herramientas a los egresados de las licenciaturas de la facultad en el Seminario de Titulación, implementaron en el Taller de Proyectos de diseño, una selección de herramientas de esta metodología, con el propósito de que los estudiantes la aprendan y apliquen en los subsecuentes semestres, por lo que, existe la intención que en el Seminario Docente de Diseño y el Diplomado en Didáctica para el Diseño se aborde este tema, y desde esta capacitación para el claustro docente, se logre estandarizar y convertirse en el modelo metodológico propio de la Universidad La Salle México, y posiblemente, con el tiempo se pueda compartir con las sedes del SEULSA y sea apropiada por el sistema.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 11) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/metodo_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/metodo_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

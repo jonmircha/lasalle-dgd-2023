@@ -1,0 +1,41 @@
+---
+layout: layout_page.njk
+title: Reacreditación del Programa Académico por COMAPROD
+description: null
+ogImg: null
+url: reacreditacion-comaprod
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Evaluar el Programa Académico en Diseño Gráfico y Digital como una propuesta de formación de profesionales con valor a nivel superior con identidad lasallista, mediante el proceso de evaluación de un organismo externo, que a través de la evaluación y mejora continua con parámetros establecidos de calidad y desarrollo nos permita reconocer nuestras fortalezas y focalizar nuestras áreas de oportunidad para mantenernos como un programa consolidado de calidad.
+        </p>
+        <p>
+          <b>Descripción:</b> Por disposición y lineamientos institucionales todos los programas de licenciatura deben ser programas con procesos vigentes de acreditación, esto por convenir a los criterios establecidos con FIMPES, por lo que en tiempo y forma la (DPEI) Dirección de Planeación y Evaluación Institucional considerando la acreditación como un debe para el programa académico convoca al equipo coordinador del PA a iniciar con los trabajos preparativos de reacreditación, buscando antes del tiempo de vencimiento del plazo de la reacreditación del 2018 la oportunidad de poder tener y cumplir con un nuevo proceso para mantener el programa acreditado. 
+        </p>
+        <p>
+          Para el Programa Académico recibir su 3er proceso de reacreditación es un momento privilegiado de poder evaluar todo el proceso de mejora que de manera permanente se ha venido trabajando como Comunidad Educativa de Diseño, procesos que sin duda le ha procurado al programa focalizar las acciones de mejora y diálogo con los actores que favorecen los procesos de enseñanza-aprendizaje y de formación integral de los estudiantes, como propósitos, métodos, recursos, espacios, perfiles y formación docente, perfiles y trayectoria escolar de alumnos, evaluación integral, continua y sumativa, actualización curricular, investigación, fundamentación teórica del programa, interdisciplina, vinculación y extensión. Es sin duda un trabajo de intencionalidad arduo, donde todos los esfuerzos han confluido y donde el hacer un alto y mostrar en transparencia nuestro esfuerzos y logros, nos permitirá continuar con rumbo hace la consolidación y excelencia.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 5) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/acredi_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/acredi_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

@@ -1,0 +1,41 @@
+---
+layout: layout_page.njk
+title: Cursos y Diplomados de Actualización Académica
+description: null
+ogImg: null
+url: cursos-diplomados-actualizacion-academica
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Incentivar en estudiantes, egresados e interesados en la profundización de conocimientos en temas relacionados directamente con el programa académico de la licenciatura en Diseño Gráfico y Digital a través de la realización de cursos cortos de temáticas afines al Programa Académico para reafirmar o complementar saberes y habilidades individuales a favor de los contenidos de asignaturas futuras.
+        </p>
+        <p>
+          <b>Descripción:</b> Profundizar en conocimientos, habilidades, competencias y/o saberes permite obtener una solidificación en el quehacer profesional, por lo que el Programa Académico gestiona y coordina cursos cortos a manera de extensión universitaria. Los cursos que se gestionan en este programa tienen la intención de complementar los saberes que los estudiantes revisan en los semestres anteriores o como una introducción a las asignaturas futuras en el Programa Académico y también acercar a temáticas relacionadas a cualquier persona interesada en el conocimiento y la práctica. Los programas de Cursos de Actualización Académica son de 20 horas y son ofertados en los períodos intersemestrales. La oferta de estos cursos es amplia pues se contemplan programas de corte metodológico, técnico, de desarrollo de proyectos, de habilidades técnicas tanto digitales como análogas y elementos que se vinculan directamente con el quehacer profesionista: Algunos de los cursos que se han impartido son Design Thinking, Adobe Photoshop Intermedio, Adobe Illustrator básico, Diseño de personajes, Diseño digital con FIGMA, Fotografía para editorial, Animación 3D Maya, Fotografía de producto, Leer y escribir bien y con buena ortografía, Serigrafía textil, Lettering, Técnicas de producción gráfica, entre otros.
+        </p>
+        <p>
+          Los cursos con valor curricular a diplomado tienen la característica de que pueden tomarse en módulos y que al cursar de 6 a 7 de ellos, el valor acumulado de conocimientos es de 100 a 140 horas. La modalidad de diplomado considera líneas de profesionalización determinada por una serie de programas diseñados por docentes especialistas en el ramo. Es así como por el momento, existen las líneas de Animación Digital, Diseño de Personaje, Producción gráfica, Fotografía, Diseño Web y Diseño, planeación y estrategia de proyectos digitales.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 12) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/c_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/c_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

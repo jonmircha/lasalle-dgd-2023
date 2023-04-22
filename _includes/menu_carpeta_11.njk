@@ -1,0 +1,56 @@
+<div id="menu" class="my-3 py-3 d-none d-lg-block"></div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-bottom d-lg-none">
+  <div class="container">
+    <a class="navbar-brand" href="/mejora-continua">
+      <img height="64" width="auto" class="fluid-img" src="/img/logo-la-salle-60.png" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+      <section class="accordion my-3" id="accordionMenu">
+        {% for el in site.menuCarpeta11 %}
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ loop.index }}" aria-expanded="false" aria-controls="collapse{{ loop.index }}">
+                {{ el.numero }} {{ el.nombre }}
+              </button>
+            </h2>
+            <div id="collapse{{ loop.index }}" class="accordion-collapse collapse" data-bs-parent="#accordionMenu">
+              <div class="accordion-body">
+                <div class="list-group">
+                  {% for el in el.submenu %}
+                    <a href="{{ el.slug }}" class="list-group-item list-group-item-action">{{ el.nombre | safe }}</a>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </section>
+    </div>
+  </div>
+</nav>
+
+<nav class="container py-lg-3 sticky-top d-none d-lg-flex align-items-lg-center justify-content-lg-center bg-black-salle">
+  <ul class="nav nav-pills w-100 justify-content-evenly align-items-center bg-black-salle">
+    <li class="nav-item">
+      <a href="/mejora-continua">
+        <img src="/img/logo-la-salle-60.png" alt="60 Aniversario La Salle" class="bg-white" width="auto" height="64">
+      </a>
+    </li>
+    {% for el in site.menuCarpeta11 %}
+      <li class="nav-item dropdown-center">
+        <a class="nav-link active rounded-pill dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">{{ el.numero }}</a>
+        <ul class="dropdown-menu dropdown-menu-dark" style="">
+          <li><a class="dropdown-item text-center fs-5" href="{{ el.slug }}"><b>{{ el.nombre }}</b></a></li>
+          <li><hr class="dropdown-divider"></li>
+          {% for el in el.submenu %}
+            <li><a class="dropdown-item" href="{{ el.slug }}">{{ el.nombre | safe }}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

@@ -1,0 +1,38 @@
+---
+layout: layout_page.njk
+title: Aula Sin Fronteras
+description: null
+ogImg: null
+url: aula-sin-fronteras
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Implementar un programa de actividad extracurricular que permita un acercamiento de la comunidad académica lasallista de Diseño Gráfico y Digital a la realidad del medio profesional, a partir de la escucha de la experiencia de la práctica del diseño fuera de las aulas, donde éste también se suma a profesiones que circundan y complementan a la disciplina para generar perspectiva en el pensamiento de diseño y mostrar la riqueza de nichos profesionales posibles.
+        </p>
+        <p>
+          <b>Descripción:</b> Aula Sin Fronteras invita a un profesionista, artista, artesano, emprendedor, empresario, docente o cualquier personaje distinguido en el campo del diseño. A través de una conferencia y una sesión de preguntas y respuestas, comparten su experiencia personal en el medio, así como la exposición de proyectos, metodologías, procesos de innovación y más, que permiten ampliar la visión de estudiantes y docentes. Desde la Jefatura de Diseño Gráfico y Digital, el programa contempla tres eventos al semestre, se programa un Aula Sin Fronteras en el último miércoles de cada mes, esto permite enriquecer la perspectiva de la comunidad educativa de manera constante durante el período semestral. En este espacio, se han dado cita a personalidades como el calígrafo Erick de la Rosa con su conferencia sobre su exposición CM, Santiago Maldonado y Juan Pablo Díaz con la conferencia Snapchat Campus Rep Program realidad aumentada y diseño, Pablo Sotres, con la plática Diseño + Tecnología Creativa; Jorge Peñaloza, con la conferencia Infografía hasta en la sopa, Lis Palacios, con la conferencia ¿Cómo he aplicado mi carrera de diseño en la repostería creativa?, así como la participación de egresados destacados, Rossana Rivera Coello con la conferencia Diseñando mi propio camino, entre otros.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 18) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/asf_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/asf_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

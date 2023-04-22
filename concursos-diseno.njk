@@ -1,0 +1,38 @@
+---
+layout: layout_page.njk
+title: Concursos de Diseño
+description: null
+ogImg: null
+url: concursos-diseno
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Impulsar la participación de los estudiantes del programa académico de diseño gráfico y digital en concursos para universitarios a nivel local y global, que consideren en sus convocatorias, las áreas de desarrollo profesional establecida por el plan de estudios, a través del desarrollo y selección de proyectos que cumplan con altos estándares de calidad, que permitan obtener espacios de reconocimiento entre los ganadores.
+        </p>
+        <p>
+          <b>Descripción:</b> La coordinación del programa académico, tiene como estrategia con respecto a los certámenes de diseño en los que participan los estudiantes, considerar su calidad y reconocimiento gremial, así como las características de las convocatorias que contemplan las categorías de los proyectos que premian; en este sentido, para impulsar la participación, se realizan dos estrategias, la primera, solicitar a los profesores de taller o asignaturas del área digital, la selección de proyectos que a su valoración, posean la calidad necesaria para concursos glocales como los Creativity Awards, el How Design Awards, el premio a! Diseño o el premio al talento universitario de la Asociación Mexicana de Instituciones de Seguros AMIS, por mencionar algunos; la segunda estrategia, se trata de revisar en coordinación las invitaciones y convocatorias que nos hacen llegar, ya sea a nivel institucional o de instancias externas, para considerar la pertinencia de integrarlos en los talleres o asignaturas, convirtiéndose en uno de los proyectos que desarrollen durante el semestre, y que, para validar la calificación de su diseño, deben evidenciar el re gistro-entrega de los materiales requeridos mediante la notificación del convocante, en otro sentido, se hace la selección de estudiantes que posean las capacidades necesarias para abordar el proyecto y desarrollarlo en todos los niveles de ejecución. Ambas estrategias han dado resultados positivos para el programa académico, ya que se han logrado obtener menciones bronce, plata y oro, en los concursos internacionales, y ser ganadores de los tres primeros lugares en concursos nacionales.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 8) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/co_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/co_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

@@ -1,0 +1,38 @@
+---
+layout: layout_page.njk
+title: Ciudadanía FAMADyC
+description: null
+ogImg: null
+url: ciudadania-famadyc
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Concientizar a la comunidad de la Facultad Mexicana de Arquitectura, Diseño y Comunicación, principalmente a nuestros jóvenes, a través de la voz de expertos en la construcción de la democracia, colaboradores del Instituto Nacional Electoral, políticos con sentido real de su función al servicio de la sociedad, empresarios comprometidos con valores, y nuestro Carisma y Valores institucionales para incentivar su labor proactiva como ciudadanos y participación informada.
+        </p>
+        <p>
+          <b>Descripción:</b> Este proyecto transversal de Ciudadanía FAMADYC está orientado al fortalecimiento del Proyectos Prestigio que, en su caso, tiene un sentido de responsabilidad social, sustentabilidad, y por supuesto, el bien común y el cuidado de la casa común. Se realiza a través de un foro de una mañana completa donde se escuchan los diversos encuadres, conferencias, mesas y, sobre todo, diálogo interactivo entre estudiantes e invitados. Nuestro compromiso como equipo coordinador es acompañar a los alumnos en este día, dedicado a temas como sociedad, democracia, empresa comprometida, ética profesional y tantos temas de la agenda glocal. A futuro se pretende que sea una labor sostenida de formación ciudadana, que integra y fortalece los principios que se buscan y logran en proyectos prestigio de la facultad como Aula FAMADYC, Líderes FAMADYC, Taller Vertical de Vinculación Social de Diseño Gráfico y Digital y Construyendo Arquitectos, entre otros, integrando valores individuales de nuestra comunidad de estudiantes y claustro docente, como ciudadanos y no sólo, futuros Profesionales con Valor.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 5) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/cf_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/cf_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

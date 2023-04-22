@@ -1,0 +1,44 @@
+---
+layout: layout_page.njk
+title: Jornadas de Medio Camino y Síntesis
+description: null
+ogImg: null
+url: jornadas-medio-camino-sintesis
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo Jornada de Bienvenida</b>: Ofrecer a los universitarios de nuevo ingreso un espacio y tiempo adecuados en carácter de bienvenida, para inducirlos al conocimiento de la Comunidad Universitaria, para facilitar la integración entre los miembros de la misma Facultad o Escuela; y puedan convivir fraternalmente con sus autoridades académicas (Vicerrectoría de Bienestar y Formación de la Universidad La Salle México, s.f.).
+        </p>
+        <p>
+          <b>Objetivo Jornada de Medio Camino:</b> Abrir un espacio de convivencia y reflexión a los estudiantes de quinto semestre de la licenciatura en diseño gráfico y digital a través de actividades que se realizan en un espacio fuera del Campus de la Universidad La Salle México, que permite a los estudiantes reconocer el punto de su formación profesional en que se encuentran, y concientizarlos sobre las fortalezas que se han construido como universitarios lasallistas, así como, el esfuerzo que deben realizar para finalizar esta etapa y su proyección profesional a futuro.
+        </p>
+        <p>
+          <b>Objetivo Jornada de Síntesis:</b> Ofrecer un espacio de cierre a los estudiantes de último semestre del programa académico en diseño gráfico y digital próximos a egresar, a través de una convivencia con sus compañeros, autoridades de la facultad y universitarias fuera del Campus de la Universidad La Salle México, que les permita reflexionar sobre la formación integral y profesional que recibieron durante su licenciatura, así como, vislumbrar su integración a una vida laboral que les ofrece oportunidades con base en el lema de la Universidad, Indivisa Manent.
+        </p>
+        <p>
+          <b>Descripción:</b> Estos tres momentos se ubican al inicio, a la mitad y al final de la formación profesional de los estudiantes del programa académico de diseñ  o gráfico y digital, se realizan en un espacio fuera del Campus de la Universidad La Salle para que se tenga una experiencia única en cada jornada, la de inicio y síntesis se lleva a cabo en Casa Tetela de Cuernavaca Morelos, y la de medio camino en la unidad Santa Teresa, en los tres espacios existen áreas verdes y auditorios en los que se efectúan las actividades que coordina la Vicerrectoría de Bienestar y Formación; el programa de actividades siempre considera las siguientes etapas, bienvenida por parte de las autoridades, en este espacio se abre la reflexión según la jornada de que se trate; dinámicas de integración animadas por los grupos misioneros de la Universidad, estas actividades son físicas y se realizan como rompe hielo; tiempo de meditación sobre los momentos significativos de su formación, este espacio es dirigido siempre por la coordinación de la licenciatura, que impulsa recapacitar con base en las experiencias a nivel personal, como universitario y profesionista; las jornadas cierran siempre con una reflexión que ofrece el director de la facultad donde se enfatizan los valores lasallistas.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 20) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/js_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/js_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

@@ -1,0 +1,38 @@
+---
+layout: layout_page.njk
+title: Foro Maestros Lasallistas
+description: null
+ogImg: null
+url: foro-lasallistas
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Difundir conocimiento sobre la cultura y pedagogía lasallista, junto con temas de vanguardia en educación superior mediante la partición profesores de nivel bachillerato, pregrado y posgrado, mediante la exposición una conferencia magistral, diversas presentaciones que dan mayor encuadre al tema y un taller colaborativo.
+        </p>
+        <p>
+          <b>Descripción:</b> Este proyecto lo gestiona la Vicerrectoría de Bienestar y Formación, lo organiza cada dos años, y se realiza un foro a nivel nacional en cualquiera de las sedes del sistema de Universidades La Salle de la República Mexicana; cada año se lleva a cabo en la Universidad La Salle México como una edición interna. En este evento participan más de 900 profesores de nivel bachillerato, pregrado y posgrado, que normalmente se conforma por una conferencia magistral, diversas presentaciones que dan mayor encuadre al tema y un taller colaborativo donde participan todos los asistentes. Los temas de estos foros ponen de manifiesto el compromiso del claustro académico por la construcción de una sociedad más justa y fraterna, analizando los problemas sociales más importantes (Vicerrectoría de Bienestar y Formación de la Universidad La Salle México, s.f.).
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 7) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/fml_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/fml_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

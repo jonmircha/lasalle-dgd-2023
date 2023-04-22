@@ -1,0 +1,41 @@
+---
+layout: layout_page.njk
+title: Aula FAMADyC
+description: null
+ogImg: null
+url: aula-famadyc
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Favorecer un espacio de encuentro, integración y experiencias organizado por y para docentes de la Facultad Mexicana de Arquitectura, Diseño y Comunicación de la Universidad La Salle que sirve para compartir sus habilidades profesionales y/o personales a través de talleres, pláticas y dinámicas que se realizan al final de ciclo anual de clase.
+        </p>
+        <p>
+          <b>Descripción:</b> EAula FAMADyC se realiza cada año como estrategia para integrar al claustro académico de la facultad a través de compartir en un día sus gustos personales, su práctica profesional y docente, o alguna habilidad que sólo ejerce con su familia; siempre comienza con una conferencia magistral de un invitado, experto en la temática que se aborde durante el evento, y también profesionista de cualquiera de las cinco disciplinas de la facultad, esta ponencia encuadra el objetivo del encuentro y los tópicos que se abordarán en las diferentes aulas y talleres que compartirán los mismos docentes. 
+        </p>
+        <p>
+          Los profesores preparan dinámicas que comparten con sus pares, como son, recetas de cocina, uso de la tecnología para mejorar nuestras clases, consejos para abordar metodologías creativas, cómo grabar un video para fortalecer las experiencias de los estudiantes, el uso de redes sociales para la docencia, cómo contar historias para diseñar, etc. Durante tres horas aproximadamente, el claustro docente participa con sus propias experiencias, fortalece las relaciones interpersonales, comparte sus retos docentes y formas de aproximarse para superarlos, complementan sus propias realidades desde las perspectivas de los otros, y se construye comunidad; después de este tiempo de enseñanza y aprendizaje, se realiza una plenaria en donde se escuchan las voces de los profesores, que reflexionan en torno a la temática, las dinámicas y las oportunidades de aplicación en su vida académica o personal.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(0, 7) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/aula_fam_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/aula_fam_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

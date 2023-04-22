@@ -1,0 +1,38 @@
+---
+layout: layout_page.njk
+title: Premios CUE
+description: null
+ogImg: null
+url: premios-cue
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Reconocer a los estudiantes sobresalientes de las Escuelas Preparatorias y Facultades de la Universidad La Salle que han sido muestra a lo largo del año con un desempeño integral a través de la entrega de los Premios CUE que otorga el Consejo Universitario Estudiantil, para distinguirlos en las categorías de Formación Integral de cada una de las áreas de la Vicerrectoría de Bienestar y Formación como son la deportiva, cultural, social, liderazgo, de impulso y vida estudiantil.
+        </p>
+        <p>
+          <b>Descripción:</b> A lo largo de 20 años el Consejo Universitario Estudiantil, es el responsable del Proyecto de Premios CUE, donde se reconoce a aquellos estudiantes que han sido muestra a lo largo del año con un desempeño integral. Además, existe una mención especial a dos categorías la de Trayectoria que es entregada por el Vicerrector de Bienestar y Formación (dicha entrega es para aquellos grupos estudiantiles que han perseverado año con año logrando posicionar a su grupo estudiantil) y por último la carta de Fortalezas que es entregada a manos de la máxima autoridad de la Universidad La Salle, el Rector. (Vicerrectoría de Bienestar y Formación de la Universidad La Salle México, s.f.).
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 8) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/cue_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/cue_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

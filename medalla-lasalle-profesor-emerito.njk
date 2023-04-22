@@ -1,0 +1,41 @@
+---
+layout: layout_page.njk
+title: Medalla San Juan Bautista de La Salle y Reconocimiento como Profesor Emérito
+description: null
+ogImg: null
+url: medalla-lasalle-profesor-emerito
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Reconocer a los colaboradores de la Universidad La Salle a través del otorgamiento de la medalla San Juan Bautista de La Salle y/o Reconocimiento como Profesor Emérito durante la ceremonia de Reconocimiento al Mérito Universitario para distinguirlos por su trayectoria y compromiso con la misión educativa lasallista.
+        </p>
+        <p>
+          <b>Descripción:</b> La medalla San Juan Bautista de La Salle es concedida a los colaboradores administrativos, docentes e investigadores que se hayan distinguido por más de 15 años por su excepcional labor y conducta personal; así como por su compromiso con la Misión e Ideario Lasallista. La distinción es otorgada previo análisis y aprobación del Consejo Universitario (Universidad La Salle México, s.f.).
+        </p>
+        <p>
+          La entrega del reconocimiento e investidura de la distinción de Profesor Emérito, el cual se otorga al académico, que haya realizado una labor docente de excepcional valía y prestado sus servicios con gran dedicación a la Institución por más de 20 años.  Este reconocimiento lo designa el Consejo Universitario. Al investir se recibe una muceta con tres cintas: el color de su disciplina y los institucionales azul y rojo. La muceta simboliza la protección por parte de la Comunidad Universitaria para continuar con la obra, además, le recuerda que es un labrador en la viña del Señor (Facultad de Ingeniería de la Universidad La Salle México, s.f.).
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 7) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/msbl_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/msbl_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

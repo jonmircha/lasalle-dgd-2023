@@ -1,0 +1,41 @@
+---
+layout: layout_page.njk
+title: Profesor Invitado
+description: null
+ogImg: null
+url: profesor-invitado
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Invitar a un experto diseñador gráfico, reconocido por su trayectoria profesional a nivel local y global, para compartir con los estudiantes de la licenciatura en diseño gráfico y digital su experiencia en el área del diseño en la que se desempeña, a través de actividades como conferencias, revisión y seguimiento de proyectos de taller que se estén diseñando, aplicación metodológica y proceso creativo para abordar lase necesidades de diseño de un cliente y usuario, entre otras.
+        </p>
+        <p>
+          <b>Descripción:</b> La figura del profesor invitado nace por iniciativa de la dirección de la facultad, en la que se pretende que los estudiantes de las licenciaturas y posgrados, tengan la oportunidad de vincular su formación con profesionistas de amplio reconocimiento a su trayectoria como diseñadores, arquitectos y comunicadores; este proyecto se ha abordado de diversas maneras por cada equipo coordinador en las cinco licenciaturas de la facultad, y para el programa académico de diseño gráfico y digital, se han realizado experiencias con diseñadores gráficos como Benito Cabañas y Jorge de Buen, que en ambos casos se han planteado como una conferencia magistral donde se hable del quehacer del invitado, su trayectoria, proyectos, premios, etc., para después pasar a la revisión de las propuestas de diseño que nuestros estudiantes están desarrollando, y que, por conveniencia de su formación, debe estar alineado al área de expertise del personaje que nos acompaña.
+        </p>
+        <p>
+          En otro sentido, se han dado ocasiones en las que se tiene un profesor invitado que abarca varias disciplinas, y que su presencia en la facultad corresponde a un nivel glocal de máximo reconocimiento, en este sentido, hemos contado con la presencia del Arq. Mario Botta y del fotógrafo Cristopher Rogel Blanquet con quienes se hemos compartido experiencias formativas diseñadores gráficos y digitales, arquitectos y comunicadores.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 22) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/pi_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/pi_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>

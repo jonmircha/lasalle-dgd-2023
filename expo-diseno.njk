@@ -1,0 +1,38 @@
+---
+layout: layout_page.njk
+title: Expo D+ Diseño
+description: null
+ogImg: null
+url: expo-diseno
+---
+
+{% include "header.njk" %}
+
+{% include "menu_carpeta_11.njk" %}
+
+<main id="main" class="main">
+  <div class="container">
+    <h2 class="display-6 my-5 p-3 text-center fw-bold">{{ title }}</h2>
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <p>
+          <b>Objetivo:</b> Fomentar tanto en estudiantes como docentes, la exposición de productos de diseño realizados en los niveles del Programa Académico que permitan visibilizar ante la comunidad académica el trabajo y proceso de construcción de diversos productos del diseño a través del contacto directo y presencial con las piezas para una mejor comprensión de los procesos y los resultados del estudio de la disciplina del diseño. Así mismo, esta exposición también está orientada para visualizar claramente por parte del público externo (preparatoria La Salle y público interesado) las ramas del trabajo de diseño a partir de la muestra concreta de productos proyectados por los estudiantes de la disciplina para la toma de decisiones futuras sobre elección de carrera.
+        </p>
+        <p>
+          <b>Descripción:</b> La exposición de trabajos de estudiantes del Programa Académico es un momento de oportunidad para que los estudiantes muestren a la comunidad sus habilidades, reciban retroalimentación, se fomente en ellos el espíritu de la colaboración, promuevan la exposición del desarrollo de sus habilidades creativas, manuales, instrumentales y conceptuales. A partir de la recopilación de ejercicios, proyectos, productos y trabajos finales realizados por los estudiantes en las diversas asignaturas, se realiza una curaduría de materiales seleccionados para formar parte de la exposición anual que el Programa Académico gestiona. Se recopila material realizado durante el semestre, se cataloga y se pone en resguardo hasta el momento del montaje. Con apoyo de docentes y estudiantes en Servicio Social vigente, la exposición permite a quien la observa, tener claridad en la evolución de la complejidad del diseño realizado en cada uno de los semestres. Las materias como talleres y producciones gráficas dan cuenta de la materialización del diseño en objetos de corte y doblez. impresos, textiles, maquetas, tomas fotográficas, dummies entre otros, así como también se da muestra de resultados en objetos digitales: Efectos visuales, páginas web, aplicaciones móviles, animaciones, ilustraciones digitales, retoque digital, realidad virtual y multimedia. El tiempo de exposición de la muestra es de 7 a 10 días para dar oportunidad a la comunidad lasallista a conocer el trabajo que se realiza en aulas del Programa Académico.
+        </p>
+      </article>
+    </section>
+    <section class="row g-0 my-lightbox-toggle">
+      {% for i in range(1, 16) %}
+        {% set col = 6 %}
+        {% if i % 3 == 0 %}
+          {% set col = 12 %}
+        {% endif %}
+        <a href="/img/11/expo_anual_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
+          <img src="/img/11/expo_anual_{{i}}.jpg" class="img-fluid w-100">
+        </a>
+      {% endfor %}
+    </section>
+  </div>
+</main>
