@@ -25,5 +25,5 @@ jobs:
         run: |
           npm ci
           npm run build
-          git remote set-url origin https://git:jonmircha@github.com/lasalle-dgd-2023.git/.git
+          git remote set-url origin https://git:jonmircha@github.com/jonmircha/lasalle-dgd-2023.git/
           npx gh-pages -d _site -u "github-actions-bot <support+actions@github.com>"
