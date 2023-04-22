@@ -6,12 +6,16 @@
   "scripts": {
     "install": "npm install @11ty/eleventy --save-dev",
     "start": "npx @11ty/eleventy --serve --port=7777",
-    "build": "npx @11ty/eleventy"
+    "build": "npx @11ty/eleventy",
+    "gh-pages": "gh-pages -d _site"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
