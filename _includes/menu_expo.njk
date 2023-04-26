@@ -10,17 +10,17 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
       <section class="accordion my-3" id="accordionMenu">
-        {% for el in site.menuCarpeta11 %}
+        {% for el in site.menuExpo %}
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ loop.index }}" aria-expanded="false" aria-controls="collapse{{ loop.index }}">
-                {{ el.numero }} {{ el.nombre }}
+                {{ el.numero }} Semestre
               </button>
             </h2>
             <div id="collapse{{ loop.index }}" class="accordion-collapse collapse" data-bs-parent="#accordionMenu">
               <div class="accordion-body">
                 <div class="list-group">
-                  {% for el in el.submenu %}
+                  {% for el in el.materias %}
                     <a href="{{ el.slug }}" class="list-group-item list-group-item-action">{{ el.nombre | safe }}</a>
                   {% endfor %}
                 </div>
@@ -33,20 +33,20 @@
   </div>
 </nav>
 
-<nav class="container py-lg-3 sticky-top d-none d-lg-flex align-items-lg-center justify-content-lg-center bg-black-salle">
+<nav class="fixed-top container-fluid py-lg-3 d-none d-lg-flex align-items-lg-center justify-content-lg-center bg-black-salle">
   <ul class="nav nav-pills w-100 justify-content-evenly align-items-center bg-black-salle">
     <li class="nav-item">
-      <a href="/mejora-continua">
+      <a href="/expo-digital">
         <img src="/img/logo-expo.png" alt="60 Aniversario La Salle" class="bg-white" width="auto" height="64">
       </a>
     </li>
-    {% for el in site.menuCarpeta11 %}
+    {% for el in site.menuExpo %}
       <li class="nav-item dropdown-center">
         <a class="nav-link active rounded-pill dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">{{ el.numero }}</a>
         <ul class="dropdown-menu dropdown-menu-dark" style="">
-          <li><a class="dropdown-item text-center fs-5" href="{{ el.slug }}"><b>{{ el.nombre }}</b></a></li>
+          <li class="text-center fs-5">{{el.numero}} Semestre</li>
           <li><hr class="dropdown-divider"></li>
-          {% for el in el.submenu %}
+          {% for el in el.materias %}
             <li><a class="dropdown-item" href="{{ el.slug }}">{{ el.nombre | safe }}</a></li>
           {% endfor %}
         </ul>

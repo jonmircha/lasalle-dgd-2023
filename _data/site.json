@@ -1,5 +1,170 @@
 {
-  "hello": "world",
+  "menuExpo": [
+    {
+      "numero": "1er",
+      "materias": [
+        {
+          "nombre": "Historia de la Comunicación Gráfica",
+          "slug": "/historia-comunicacion-grafica",
+          "semestre": "Primero",
+          "nivel": "Básico",
+          "area": "Cultura y Diseño",
+          "curricula": "Taller de Diseño I, Metodología para el Diseño",
+          "poster": "/img/materias/historia-comunicacion-grafica.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/ElwzjWlRL4dNgu2vBbHJ4tgBOXGwyPivr7kQ7ZPsWrz5Pg?e=xNBB0g",
+          "proyectos": [
+            {
+              "nombre": "Las Artes",
+              "objetivo": "Identificar los factores que influyen en el arte, para conocer el origen y finalidad de la expresión humana.",
+              "descripcion": "Catálogo de muestras representativas. Desarrollo de imágenes. Entrega de una colección de muestras gráficas. Considerar y comentar los siguientes puntos: Definición de arte y artes, características y relación (desde diferentes épocas) de la obra de arte y el receptor.",
+              "entregable": "El arte y su evolución en la historia. Reconocimiento de las representaciones humanas y sus técnicas a lo largo de la historia. Revisión de referentes medios y condiciones para analizar la relevancia de lo que se ha producido históricamente."
+            },
+            {
+              "nombre": "Función Social del Arte",
+              "objetivo": "Revisar los fines que ha tenido el arte como factor social, política y religiosamente. cambios que considerar los valores representativos que influyen en el terreno del arte.",
+              "descripcion": "Revisar los fines que ha tenido el arte como factor social, política y religiosamente. cambios que considerar los valores representativos que influyen en el terreno del arte.",
+              "entregable": "Desarrollo e investigación (revisión de muestra documental y bibliográfica). Revisión de imágenes. Presentación de muestra representativa relacionada con el arte en sus diferentes manifestaciones."
+            },
+            {
+              "nombre": "Comparaciones en las características de los estilos en el arte",
+              "objetivo": "Revisaren diferentes obras de arte, su valor representativo, técnico y conceptual.",
+              "descripcion": "Trabajo escrito. Clasificación de muestras. Puntualización y justificación del proceso. Archivo digital como complemento de la presentación. Catálogo organizado y tipificado de imágenes como muestra de productos del arte.",
+              "entregable": "Valor de la transformación técnica en las artes Diseños y su tipo de consumo. Selección de productos y revisión de sus consumidores."
+            }
+          ]
+        },
+        {
+          "nombre": "Metodología para el Diseño",
+          "slug": "/metodologia-diseno",
+          "semestre": "Primero",
+          "nivel": "Básico",
+          "area": "Cultura y Diseño",
+          "curricula": "Taller de Diseño I, Metodología para el Diseño",
+          "poster": "/img/materias/.jpeg",
+          "docs": "",
+          "proyectos": [
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            },
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            },
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            }
+          ]
+        },
+        {
+          "nombre": "Dibujo Antropométrico",
+          "slug": "/dibujo-antropometrico",
+          "semestre": "Primero",
+          "nivel": "Básico",
+          "area": "Cultura y Diseño",
+          "curricula": "Taller de Diseño I, Metodología para el Diseño",
+          "poster": "/img/materias/.jpeg",
+          "docs": "",
+          "proyectos": [
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            },
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            },
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            }
+          ]
+        },
+        {
+          "nombre": "Imagen Digital",
+          "slug": "/imagen-digital",
+          "semestre": "Primero",
+          "nivel": "Básico",
+          "area": "Cultura y Diseño",
+          "curricula": "Taller de Diseño I, Metodología para el Diseño",
+          "poster": "/img/materias/.jpeg",
+          "docs": "",
+          "proyectos": [
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            },
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            },
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "2°",
+      "materias": [
+        {
+          "nombre": "Antropología para el Diseño",
+          "slug": "/antropología-diseno",
+          "semestre": "Primero",
+          "nivel": "Básico",
+          "area": "Cultura y Diseño",
+          "curricula": "Taller de Diseño I, Metodología para el Diseño",
+          "poster": "/img/materias/.jpeg",
+          "docs": "",
+          "proyectos": [
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            },
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            },
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            }
+          ]
+        },
+        {
+          "nombre": "Edición de Imagen Digital",
+          "slug": "/edicion-imagen-digital"
+        }
+      ]
+    }
+  ],
   "menuCarpeta11": [
     {
       "numero": "11.1",
