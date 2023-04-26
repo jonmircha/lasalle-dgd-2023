@@ -59,7 +59,8 @@ a {
   background-size: contain;
 }
 
-.card-prestigio a {
+.card-prestigio a,
+.btn-gradient {
   padding: 0.5rem 1rem;
   border: 2px solid transparent;
   border-radius: 1rem;
@@ -72,7 +73,8 @@ a {
   transition: all 0.3s ease-out;
 }
 
-.card-prestigio a:hover {
+.card-prestigio a:hover,
+.btn-gradient:hover {
   background: linear-gradient(#000 0 0) padding-box,
     linear-gradient(321deg, rgb(0, 30, 97) 100%) 0%, rgb(206, 14, 45) border-box;
   animation: pulse 1.5s linear infinite;
