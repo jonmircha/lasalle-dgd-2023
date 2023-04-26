@@ -24,12 +24,12 @@ url: medalla-febres-cordero
       </article>
     </section>
     <section class="row g-0 my-lightbox-toggle">
-      {% for i in range(1, 2) %}
+      {% for i in range(1, 5) %}
         {% set col = 6 %}
         {% if i % 3 == 0 %}
           {% set col = 12 %}
         {% endif %}
-        <a href="/img/11/medalla_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-12">
+        <a href="/img/11/medalla_{{i}}.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-6 col-md-{{col}}">
           <img src="/img/11/medalla_{{i}}.jpg" class="img-fluid w-100">
         </a>
       {% endfor %}
