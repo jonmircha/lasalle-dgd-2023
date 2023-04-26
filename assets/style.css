@@ -31,6 +31,15 @@
   /* src: url(./fonts/indivisa_display_sans-regular.woff2) format("woff2"); */
 }
 
+@font-face {
+  font-family: "Indivisa Sans";
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./fonts/indivisa_text_sans-bold.woff2) format("woff");
+  /* src: url(./fonts/indivisa_display_sans-regular.woff2) format("woff2"); */
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -150,4 +159,30 @@ a {
 nav.navbar.fixed-bottom {
   max-height: 100%;
   overflow-y: auto;
+}
+
+.circle-red {
+  position: absolute;
+  float: left;
+  top: 5%;
+  right: 90%;
+  background-color: #c91229;
+  border-radius: 100%;
+  shape-outside: circle(100% at 25%);
+  clip-path: circle(100% at 25%);
+  width: 200px;
+  height: 200px;
+}
+
+.circle-purple {
+  position: absolute;
+  float: left;
+  bottom: 20%;
+  right: 90%;
+  background-color: #5a2b82;
+  border-radius: 100%;
+  shape-outside: circle(100% at 25%);
+  clip-path: circle(100% at 25%);
+  width: 200px;
+  height: 200px;
 }
