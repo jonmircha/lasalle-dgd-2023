@@ -213,33 +213,59 @@
       "numero": "4°",
       "materias": [
         {
-          "nombre": "",
-          "slug": "/",
+          "nombre": "Teorías Digitales",
+          "slug": "/teorias-digitales",
           "semestre": "Cuarto",
-          "nivel": "",
-          "area": "",
-          "curricula": "",
-          "poster": "/img/materias/.jpeg",
-          "docs": "",
+          "nivel": "Intermedio",
+          "area": "Cultura y Diseño",
+          "curricula": "Historia de la Comunicación Gráfica, Antropología para el Diseño, Sociedad Cultura y Diseño, Diseño Sostenible.",
+          "poster": "/img/materias/teorias-digitales.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/EknRBtuGUNxAt_daSFiLLFABXxfy4WBk1Jb-gRL6lTdf8A?e=SIYR1n",
           "circle": "purple",
           "proyectos": [
             {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
-            },
+              "nombre": "Artículo digital en formato web",
+              "objetivo": "Que el estudiante comprenda el proceso de escritura de código HTML y CSS.",
+              "descripcion": "El estudiante redactará en formato web, el contenido (HTML) y la presentación (CSS) de un artículo de investigación. Crea un CodeSandbox de tipo static y ponle el nombre 'Artículo-Web-Tu-Nombre-Apellido', reemplaza Tu-Nombre-Apellido por tu nombre y apellido. La temática de tu artículo es libre. Se evaluará la redacción y ortografía del artículo. Deberás organizar tus archivos con la nomenclatura y estructura vistas en clase.",
+              "entregable": "El estudiante redactará en formato web, el contenido (HTML) y la presentación (CSS) de un artículo de investigación. Crea un CodeSandbox de tipo static y ponle el nombre 'Artículo-Web-Tu-Nombre-Apellido', reemplaza Tu-Nombre-Apellido por tu nombre y apellido. La temática de tu artículo es libre. Se evaluará la redacción y ortografía del artículo. Deberás organizar tus archivos con la nomenclatura y estructura vistas en clase."
+            }
+          ]
+        },
+        {
+          "nombre": "Semiótica para el Diseño",
+          "slug": "/semiotica-diseno",
+          "semestre": "Cuarto",
+          "nivel": "Intermedio",
+          "area": "Teórico Metodológica",
+          "curricula": "Antropología para el diseño, Retórica para el diseño, Taller de Identidad, Diseño y Mercadotecnia, Taller de Campañas, Taller de Infografía, Proyecto Terminal.",
+          "poster": "/img/materias/semiotica-diseno.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/ElUAT9-NpZtGp_-bFm4nl-cBX4cbuSRYoN2WY6S2otA00A?e=cWYFQv",
+          "circle": "purple",
+          "proyectos": [
             {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
-            },
+              "nombre": "Modelo teórico de Pairce",
+              "objetivo": "Lograr una visión comprensiva y fundamentada de los principios generales de la semiótica desde el modelo teórico de Peirce.",
+              "descripcion": "Lograr una visión comprensiva y fundamentada de los principios generales de la semiótica desde el modelo teórico de Peirce.",
+              "entregable": "El estudiantado elegirá un objeto de diseño para trabajarlo a partir de los objetivos planteados. Se realizará un análisis en cuanto a los conceptos de la semiótica (el diseño y la semiótica como función comunicativa -práctica, estética y simbólica- dentro de un contexto determinado; sintaxis, semántica y pragmática). A partir de la teoría y lecturas, se incorporarán las definiciones de los conceptos revisados en el modelo de Peirce (NO copiar apuntes de clase, investigar y poner con sus propias palabras). Dicha información será aplicada al modelo teórico de Peirce: Triada del signo: representamen, objeto e interpretante (2 triadas). Categorías del signo: primeridad, segundidad y terceridad (2 triadas). Relación signo y objeto: ícono, índice y símbolo (2 triadas). Relación signo e interpretamen: rema, dicente y argumento (2 triadas). Determinará el tipo de consumidor/usuario a quién va dirigido el objeto, profundizando en la importancia que tiene éste para el proceso de diseñar –indagar sobre los perfiles. Recopilará imágenes sobre el producto elegido con el fin que desarrolle la habilidad de observar, analizar y criticar en torno al producto a analizar (punto de venta, competencia, ubicación, consumidores)"
+            }
+          ]
+        },
+        {
+          "nombre": "Modelado Digital",
+          "slug": "/modelado-digital",
+          "semestre": "Cuarto",
+          "nivel": "Intermedio",
+          "area": "Digital",
+          "curricula": "Imagen Digital, Edición de Imagen Digital, Formación Editorial Digital, Diseño Interactivo Digital, Gráficos digitales en Movimiento, Diseño de Efectos Visuales, Laboratorio de tecnologías Emergentes",
+          "poster": "/img/materias/modelado-digital.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/Ei9695KkQz5BgiLhlu3XSWcBxQeqhGgyKByEcNbPOHXofw?e=a2vmGL",
+          "circle": "purple",
+          "proyectos": [
             {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
+              "nombre": "UN BODEGÓN CON POLIGONOS Y CURVAS",
+              "objetivo": "Conocer y experimentar con las herramientas de modelado 3D. Relacionar la experiencia del proyecto anterior para elaborar el proyecto actual.",
+              "descripcion": "El alumno construirá un modelo digital de un bodegón con polígonos, un empaque de jugo con polígonos y una botella con curvas.",
+              "entregable": "Una escena 3d formato “mb” con modelado de un bodegón; todo con materiales y luces básicas. Tres renders de la escena con diferentes posiciones de cámara, en formato jpg."
             }
           ]
         }
