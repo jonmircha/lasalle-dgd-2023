@@ -275,33 +275,59 @@
       "numero": "5°",
       "materias": [
         {
-          "nombre": "",
-          "slug": "/",
+          "nombre": "Sociedad Cultura y Diseño",
+          "slug": "/sociedad-cultura-diseno",
           "semestre": "Quinto",
-          "nivel": "",
-          "area": "",
-          "curricula": "",
-          "poster": "/img/materias/.jpeg",
-          "docs": "",
+          "nivel": "Intermedio",
+          "area": "Cultura y Diseño",
+          "curricula": "Antropología para el Diseño. Diseño sostenible. Teorías digitales",
+          "poster": "/img/materias/sociedad-cultura-diseno.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/Ev-xeEkTrCZMnCDebHeb9JYBVY9Zwz5Utg7Ffjo2ZQXsKA?e=KZeLM1",
           "circle": "purple",
           "proyectos": [
             {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
-            },
+              "nombre": "Bosquejo de proyecto contra la xenofobia en México",
+              "objetivo": "1) Reconocer el rol cultural del DG en nuestra sociedad, a partir del análisis de teorías y reflexiones antropológicas, sociológicas y filosóficas. 2) Problematizar la noción de identidades nacionales desde el marco del DG. 2) Visualizar con herramientas de diseño la complejidad del fenómeno migratorio y la naturalización. 3) Identificar y comunicar la dimensión subjetiva de fenómenos culturales como el mestizaje. 4) Diseñar una estrategia de comunicación para enfrentar la discriminación en México",
+              "descripcion": "El proyecto se hará en equipo. A partir del trabajo de investigación realizado en el semestre, los alumnos deberán hacer una síntesis de los contenidos y las reflexiones, para proponer una estrategia de comunicación visual contra la xenofobia en México.",
+              "entregable": "Protocolo de investigación (borrador): 5-6 cuartillas. Título. Problematización. Justificación. Objetivos. Estado del Arte. Metodología. Bibliografía"
+            }
+          ]
+        },
+        {
+          "nombre": "Retórica para el Diseño",
+          "slug": "/retorica-diseno",
+          "semestre": "Quinto",
+          "nivel": "Intermedio",
+          "area": "Teórico Metodológica",
+          "curricula": "Semiótica para el diseño. Metodología para el diseño",
+          "poster": "/img/materias/retorica-diseno.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/EhZhZuf9yytEsR3YYBrJrAsBttkLoNU0mj-gJVyo3HPcAg?e=vUshp3",
+          "circle": "purple",
+          "proyectos": [
             {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
-            },
+              "nombre": "Kit retórico",
+              "objetivo": "Aplicar las nociones teóricas revisadas a lo largo del curso en un proyecto práctico.",
+              "descripcion": "A partir de un tema se identificará un problema, se llevará a cabo un análisis desde la revisión de todos los conceptos teóricos revisados en el curso para dar una solución de diseño desde un kit. Ello con el fin de que los estudiantes comprendan de qué manera se aplica la retórica al proceso de diseñar y la importancia de considerar al auditorio.",
+              "entregable": "Se especificará el problema y el proceso retórico para la determinación de la solución. El kit y una breve presentación el día de la entrega será de manera presencial, el kit debe de ser un dummy con los elementos que contendrá el kit así como sus respectivos elementos gráficos (etiquetas, paleta de color, tipografía, etc.)."
+            }
+          ]
+        },
+        {
+          "nombre": "Diseño Interactivo Digital",
+          "slug": "/diseno-interactivo-digital",
+          "semestre": "Quinto",
+          "nivel": "Intermedio",
+          "area": "Digital",
+          "curricula": "Imagen Digital, Edición de Imagen Digital, Composición Tipográfica, Composición Fotográfica, Taller de Diseño Editorial, Teorías Digitales.",
+          "poster": "/img/materias/diseno-interactivo-digital.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/ElJjQ5wZIjhIq7DGXN31Ci8BEGfh8x4tuGfE9-Tu_fMJ_g?e=hoIyzl",
+          "circle": "purple",
+          "proyectos": [
             {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
+              "nombre": "Menú Digital para restaurante Post-COVID",
+              "objetivo": "Que el estudiante comprenda el proceso de construir una interfaz web con HTML y CSS.",
+              "descripcion": "El estudiante construirá un menú de restaurante post covid aplicando el marcado HTML y la definición CSS.",
+              "entregable": "Con el conocimiento previo de HTML y CSS y el desarrollo de páginas sencillas a partir de Wordpress, el alumno puede elaborar productos fáciles de implementar con alto valor funcional e impacto visual."
             }
           ]
         }
