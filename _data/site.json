@@ -493,39 +493,39 @@
       "materias": [
         {
           "nombre": "Laboratorio de Tecnologías Emergentes",
-          "slug": "/",
+          "slug": "/laboratorio-tecnologias-emergentes",
           "semestre": "Octavo",
           "nivel": "Profundización",
           "area": "Digital",
-          "curricula": "",
-          "poster": "/img/materias/.jpeg",
-          "docs": "",
+          "curricula": "Modelado",
+          "poster": "/img/materias/laboratorio-tecnologias-emergentes.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/EhGtImz8reFMoKtEYvP6ua8BZA9fhw15CCZZvPhoTfOXhA?e=cdefmJ",
           "circle": "blue",
           "proyectos": [
             {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
+              "nombre": "Tienda Virtual",
+              "objetivo": "Que el alumno aprenda a desarrollar una tienda en entornos virtuales para un servicio o producto.",
+              "descripcion": "El alumno llevará a cabo el proceso de modelado de productos que posteriormente integrará en Adobe Aero para realizar una composición en Realidad Aumentada.",
+              "entregable": "Código QR de su Realidad Aumentada."
             }
           ]
         },
         {
           "nombre": "Diseño de Ediciones Digitales",
-          "slug": "/",
+          "slug": "/diseno-ediciones-digitales",
           "semestre": "Octavo",
           "nivel": "Profundización",
           "area": "Área de Profundización Digital",
-          "curricula": "",
-          "poster": "/img/materias/.jpeg",
-          "docs": "",
+          "curricula": "Diseño Multimedia y Aplicaciones, Diseño Interactivo, Diseño Multimedia, Taller de Identidad, Taller de Editorial.",
+          "poster": "/img/materias/diseno-ediciones-digitales.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/EjTEJXcnwi5CmtP9cLSyv-8BdI3EnF-0eHNI_HbwSJoWwg?e=DJcCiO",
           "circle": "blue",
           "proyectos": [
             {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
+              "nombre": "Proyecto Integral de Marketing Digital para YouTube",
+              "objetivo": "El alumno aprenderá a llevar a cabo la elaboración de la identidad de un canal de YouTube enfocado al ámbito de reseñas. Desde la planeación del Look and Feel hasta la creación del contenido para la misma.",
+              "descripcion": "El alumno realizará en distintas etapas y con distintos proyectos, la construcción de una marca en YouTube: Investigación y Benchmarking, Identidad y Logotipo, Conceptualización y realización de video reseñas y conectar su marketing mediante un epub.",
+              "entregable": "Al finalizar, los alumnos habrán realizado un proyecto digital de gran escala y multidisciplinario que abarcó todo el semestre para realizar cada una de las etapas y materiales requeridos para un canal de reseñas en YouTube, generando así consciencia sobre la dificultad, los tiempos y sinergia de trabajo en equipo."
             }
           ]
         }

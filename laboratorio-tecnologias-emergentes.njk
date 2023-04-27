@@ -1,0 +1,51 @@
+---
+layout: layout_page.njk
+title: Laboratorio de Tecnologías Emergentes
+description: null
+ogImg: null
+url: laboratorio-tecnologias-emergentes
+---
+
+{% include "header_expo.njk" %}
+
+{% include "menu_expo.njk" %}
+
+{% set materia = site.menuExpo[7].materias[0] %}
+
+<main id="main" class="main">
+  <div class="container">
+    <section class="row my-5 p-3">
+      <article class="col-10 offset-1 fs-5">
+        <section class="row border-danger p-4 bg-white rounded text-secondary position-relative overflow-hidden">
+          <div class="col-12 col-md-10 offset-md-2">
+            <h2 class="display-6 fw-bold text-blue-salle">{{ title }}</h2>
+            <ul class="list-unstyled">
+              <li><b>Semestre:</b> {{ materia.semestre }}</li>
+              <li><b>Nivel:</b> {{ materia.nivel }}</li>
+              <li><b>Área de Conocimiento:</b> {{ materia.area }}</li>
+              <li><b>Relación del trabajo con la malla curricular del Programa Académico:</b> {{ materia.curricula }}</li>
+            </ul>
+             <h3 class="display-5 my-5 fw-bold">Proyectos</h3>
+            <aside class="">
+              {% for el in materia.proyectos %}
+                <div class="card mx-auto my-5" style="">
+                  <div class="card-body bg-light">
+                    <h4 class="card-title fs-2 mb-3 text-blue-salle fw-bold">{{ el.nombre }}</h4>
+                    <p class="card-text"><b>Objetivo:</b> {{ el.objetivo }}</p>
+                    <p class="card-text"><b>Descripción:</b> {{ el.descripcion }}</p>
+                    <p class="card-text"><b>Entregable:</b> {{ el.entregable }}</p>
+                  </div>
+                </div>
+              {% endfor %}
+            </aside>
+            <div class="text-center">
+              <a href="{{ materia.docs }}" class="btn-gradient my-5 display-5" target="_blank">Ver Proyectos <i class="bi bi-folder-symlink-fill"></i></a>
+              <img class="img-fluid my-5" src="{{ materia.poster }}" alt="{{ title }}">
+            </div>
+          </div>
+          <div class="d-none d-md-block circle-{{materia.circle}}"></div>
+        </section>
+      </article>
+    </section>
+  </div>
+</main>
