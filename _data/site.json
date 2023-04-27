@@ -443,65 +443,46 @@
       "numero": "7°",
       "materias": [
         {
-          "nombre": "",
-          "slug": "/",
+          "nombre": "Diseño, Multimedia y Aplicaciones",
+          "slug": "/diseno-multimedia-aplicaciones",
           "semestre": "Séptimo",
-          "nivel": "",
-          "area": "",
-          "curricula": "",
-          "poster": "/img/materias/.jpeg",
-          "docs": "",
+          "nivel": "Profundización",
+          "area": "Área de Profundización Digital",
+          "curricula": "Tecnologías Emergentes, Gráficos en movimiento, Imagen Digital I y II, Taller de Identidad, Taller de Editorial",
+          "poster": "/img/materias/diseno-multimedia-aplicaciones.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/EqIgLUH1_-xFsTwuDvt0XzkBY9Y4BsE3licJhuZ8Xdtsrg?e=bsTL1J",
           "circle": "blue",
           "proyectos": [
             {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
+              "nombre": "Diseño de Landing page de comida rápida con producción fotográfica (Desktop).",
+              "objetivo": "Que el alumno aprenda a realizar la producción de una Landing page y sus fotografías para generar mayor impacto en una estrategia de lanzamiento de producto de comida rápida.",
+              "descripcion": "El alumno deberá realizar en equipo: Análisis e investigación de 'personas', Manual de proceso fotográfico y conceptualización, 10 fotografías de producto, 1 video promocional de 30 segs.",
+              "entregable": "Al finalizar el proyecto los alumnos aprenden a trabajar de manera multidisciplinaria con equipos conformados por diseñadores y comunicólogos realizando distintas tareas que conforman un proyecto Integral el cual incluye diseño web, arquitectura de información, composición gráfica, creación y revisión de copys, producción y postproducción de video."
             }
           ]
         },
         {
-          "nombre": "",
-          "slug": "/",
+          "nombre": "Gráfica y Espacio",
+          "slug": "/grafica-espacio",
           "semestre": "Séptimo",
-          "nivel": "",
-          "area": "",
-          "curricula": "",
-          "poster": "/img/materias/.jpeg",
-          "docs": "",
+          "nivel": "Profundización",
+          "area": "Área de Profundización Diseño Ambiental",
+          "curricula": "Metodología para el diseño-Sociedad Cultura y Diseño-Metodología para la investigación-Taller de campañas-materiales y prototipos-modelado digital-diseño digital multimedia-finanzas para diseñadores.",
+          "poster": "/img/materias/grafica-espacio.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/EpGTTakDWhZGn2V_7h_vItsBqlCZ1jRnUVrJxs5Wwl5eNA?e=ccHsTZ",
           "circle": "blue",
           "proyectos": [
             {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
-            }
-          ]
-        },
-        {
-          "nombre": "",
-          "slug": "/",
-          "semestre": "Séptimo",
-          "nivel": "",
-          "area": "",
-          "curricula": "",
-          "poster": "/img/materias/.jpeg",
-          "docs": "",
-          "circle": "blue",
-          "proyectos": [
-            {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
+              "nombre": "Propuesta de ambientación museográfica y de exhibición.",
+              "objetivo": "El alumno comprenderá los elementos que integran las propuestas de exhibición museográfica y aplicará las estrategias lógicas del medio para comunicarse con equipos multidisciplinarios.",
+              "descripcion": "El alumno indagará sobre los requerimientos y los discursos necesarios que acompañan las propuestas museográficas y los elementos que comparte con la arquitectura y el espacio público y proivado de exhibición.",
+              "entregable": "Haber participado activamente con avances en las clases de revisión, entregar maqueta, planos y desarrollo analítico correspondiente."
             },
             {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
+              "nombre": "Modelado digital/analogo de un espacio seleccionado.",
+              "objetivo": "El alumno explorará las ventajas del modelado digital y la importancia de un levantamiento de demensiones reales para la apropiación del espacio.",
+              "descripcion": "El alumno elegira libremente un onbjetivo ambiental y lo grafircará según sus capacides y se iniciará con con la exploración digital.",
+              "entregable": "Reconocer y orientar las capacidades del alumno para utilizar el bocetaje análogo y orientarlo hacia lo digital."
             }
           ]
         }
@@ -511,11 +492,11 @@
       "numero": "8°",
       "materias": [
         {
-          "nombre": "",
+          "nombre": "Laboratorio de Tecnologías Emergentes",
           "slug": "/",
           "semestre": "Octavo",
-          "nivel": "",
-          "area": "",
+          "nivel": "Profundización",
+          "area": "Digital",
           "curricula": "",
           "poster": "/img/materias/.jpeg",
           "docs": "",
@@ -530,11 +511,11 @@
           ]
         },
         {
-          "nombre": "",
+          "nombre": "Diseño de Ediciones Digitales",
           "slug": "/",
           "semestre": "Octavo",
-          "nivel": "",
-          "area": "",
+          "nivel": "Profundización",
+          "area": "Área de Profundización Digital",
           "curricula": "",
           "poster": "/img/materias/.jpeg",
           "docs": "",
