@@ -40,26 +40,26 @@
           "nivel": "Básico",
           "area": "Cultura y Diseño",
           "curricula": "Taller de Diseño I, Metodología para el Diseño",
-          "poster": "/img/materias/.jpeg",
-          "docs": "",
+          "poster": "/img/materias/metodologia-diseno.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/ErG7wSdQ-FNJjAckpKJl1_UBw8JP0Z-xrUKNSCZQVyRMXw?e=7TL8T9",
           "proyectos": [
             {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
+              "nombre": "Diseño y Comunicación",
+              "objetivo": "Reconocer la distancia entre la intención del Diseñador al configurar un mensaje visual y la interpretación de los receptores.",
+              "descripcion": "Los alumnos eligen un refrán y seleccionan imágenes que encuentran en la web para ilustrarlo en una secuencia de imágenes lineal del refrán elegido.",
+              "entregable": "De manera INDIVIDUAL se investigan y esquematizan los métodos de investigación expuestos. Por EQUIPOS se investiga y expone cada uno de los diferentes métodos de diseño de cinco autores destacados del siglo pasados."
             },
             {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
+              "nombre": "Esquema: Proceso de Diseño como proceso de comunicación",
+              "objetivo": "Comprender y afirmar cuáles y qué relación tienen todos los elementos del proceso de diseño considerado como un proceso de comunicación.",
+              "descripcion": "Se solicita a los alumnos que durante 5 semanas tomen apuntes sobre el esquema del proceso de diseño como proceso de comunicación y que elaboren una representación esquemática para sintetizar esta relación, de manera que terminada la exposición tienen una clase más para entregar su propia versión de lo comprendido.",
+              "entregable": "La comprensión de los elementos que conforman al proceso de diseño genera en el estudiante la reflexión sobre su quehacer como futuro diseñador gráfico y digital."
             },
             {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
+              "nombre": "Métodos de investigación / Métodos de Diseño",
+              "objetivo": "Conocer y comprender distintos métodos de investigación. Conocer los antecedentes históricos de la propuesta metodológica del diseño del siglo XX. Comprender la aportación de cada uno de los métodos revisados al pensamiento de diseño contemporáneo.",
+              "descripcion": "De manera INDIVIDUAL se investigan y esquematizan los métodos de investigación expuestos. Por EQUIPOS se investiga y expone cada uno de los diferentes métodos de diseño de cinco autores destacados del siglo pasados.",
+              "entregable": "Cada método se esquematiza en un formato que permite a los estudiantes exponer a la clase para la explicación de éste. Con ello los estudiantes verbalizan y facilitan la comprensión del método a partir del material encontrado."
             }
           ]
         },
@@ -68,28 +68,22 @@
           "slug": "/dibujo-antropometrico",
           "semestre": "Primero",
           "nivel": "Básico",
-          "area": "Cultura y Diseño",
-          "curricula": "Taller de Diseño I, Metodología para el Diseño",
-          "poster": "/img/materias/.jpeg",
-          "docs": "",
+          "area": "Dibujo",
+          "curricula": "Dibujo para el diseño. Taller Básico de Diseño I. Dibujo para el Diseño. Taller de Identidad. Ilustración. Taller de Gráfica Aplicada al Envase. Imagen Digital",
+          "poster": "/img/materias/dibujo-antropometrico.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/EhTEoA_PXw9MmW2vN25mG4EBrx6HcSmiPzXriqGQ2TMwAw?e=9Ih2v1",
           "proyectos": [
             {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
+              "nombre": "Autoretrato",
+              "objetivo": "Conocer y observar la figura humana en su conjunto al comenzar por el rostro propio para reconocer y expresar gráficamente rasgos y proporciones.",
+              "descripcion": "A partir de una fotografía, el alumno realizará un collage donde se combinarán la imagen fotográfica y el dibujo inspirado por el retrato.",
+              "entregable": "El Dibujo-Collage permite el proceso de observación de la forma antropométrica así como la exploración de elementos gráficos para su configuración."
             },
             {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
-            },
-            {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
+              "nombre": "Dibujo en movimiento",
+              "objetivo": "El alumno podrá apreciar y dibujar la figura humana en movimiento, mediante la observación y percepción de un cuerpo cinético, a partir de una serie de modelos fotográficos.",
+              "descripcion": "Cada alumno representará un distinto punto de vista de una misma figura humana. Cada dibujo formará parte de una secuencia que permitirá mostrar la forma dibujada en movimiento.",
+              "entregable": "A partir del estudio de la figura humana en posiciones estáticas y dinámicas la observación de la forma se agudiza."
             }
           ]
         },
@@ -98,28 +92,16 @@
           "slug": "/imagen-digital",
           "semestre": "Primero",
           "nivel": "Básico",
-          "area": "Cultura y Diseño",
-          "curricula": "Taller de Diseño I, Metodología para el Diseño",
-          "poster": "/img/materias/.jpeg",
-          "docs": "",
+          "area": "Digital",
+          "curricula": "Taller Básico de Diseño I y II, Metodología para el Diseño, Edición de Imagen Digital, Formación Editorial Digital, Modelado Digital, Diseño Interactivo Digital, Gráficos Digitales en Movimiento",
+          "poster": "/img/materias/imagen-digital.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/EvIpOh6O11FLoN9UTKqOf4oBlMcxssTMrQjhfyx1JT_8Tw?e=41hP1a",
           "proyectos": [
             {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
-            },
-            {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
-            },
-            {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
+              "nombre": "Creación de personaje",
+              "objetivo": "El alumno será capaz de aplicar todo el conocimiento adquirido durante el semestre, teórica y conceptualmente para realizar una ilustración compleja",
+              "descripcion": "El alumno realizará la ilustración ultrarrealista de una persona utilizando las herramientas de mesh, gradiente y fusión, Deberá incluir un concepto para complementar el diseño.",
+              "entregable": "Al finalizar el proyecto, el alumno tendrá la capacidad de realizar ilustraciones conceptuales complejas para exposiciones, carteles, empaques u otras aplicaciones ya sea de forma digital o análoga."
             }
           ]
         }
@@ -161,6 +143,41 @@
         {
           "nombre": "Edición de Imagen Digital",
           "slug": "/edicion-imagen-digital"
+        }
+      ]
+    },
+    {
+      "numero": "3°",
+      "materias": [
+        {
+          "nombre": "Antropología para el Diseño",
+          "slug": "/antropología-diseno",
+          "semestre": "Primero",
+          "nivel": "Básico",
+          "area": "Cultura y Diseño",
+          "curricula": "Taller de Diseño I, Metodología para el Diseño",
+          "poster": "/img/materias/.jpeg",
+          "docs": "",
+          "proyectos": [
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            },
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            },
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            }
+          ]
         }
       ]
     }
