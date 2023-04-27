@@ -161,7 +161,9 @@ nav.navbar.fixed-bottom {
   overflow-y: auto;
 }
 
-.circle-red {
+.circle-red,
+.circle-purple,
+.circle-blue {
   position: absolute;
   float: left;
   top: 5%;
@@ -175,14 +177,9 @@ nav.navbar.fixed-bottom {
 }
 
 .circle-purple {
-  position: absolute;
-  float: left;
-  bottom: 20%;
-  right: 90%;
   background-color: #5a2b82;
-  border-radius: 100%;
-  shape-outside: circle(100% at 25%);
-  clip-path: circle(100% at 25%);
-  width: 200px;
-  height: 200px;
+}
+
+.circle-blue {
+  background-color: var(--blue-salle-color);
 }

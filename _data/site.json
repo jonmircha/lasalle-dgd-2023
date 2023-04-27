@@ -12,6 +12,7 @@
           "curricula": "Taller de Diseño I, Metodología para el Diseño",
           "poster": "/img/materias/historia-comunicacion-grafica.jpeg",
           "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/ElwzjWlRL4dNgu2vBbHJ4tgBOXGwyPivr7kQ7ZPsWrz5Pg?e=xNBB0g",
+          "circle": "red",
           "proyectos": [
             {
               "nombre": "Las Artes",
@@ -42,6 +43,7 @@
           "curricula": "Taller de Diseño I, Metodología para el Diseño",
           "poster": "/img/materias/metodologia-diseno.jpeg",
           "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/ErG7wSdQ-FNJjAckpKJl1_UBw8JP0Z-xrUKNSCZQVyRMXw?e=7TL8T9",
+          "circle": "red",
           "proyectos": [
             {
               "nombre": "Diseño y Comunicación",
@@ -72,6 +74,7 @@
           "curricula": "Dibujo para el diseño. Taller Básico de Diseño I. Dibujo para el Diseño. Taller de Identidad. Ilustración. Taller de Gráfica Aplicada al Envase. Imagen Digital",
           "poster": "/img/materias/dibujo-antropometrico.jpeg",
           "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/EhTEoA_PXw9MmW2vN25mG4EBrx6HcSmiPzXriqGQ2TMwAw?e=9Ih2v1",
+          "circle": "red",
           "proyectos": [
             {
               "nombre": "Autoretrato",
@@ -96,6 +99,7 @@
           "curricula": "Taller Básico de Diseño I y II, Metodología para el Diseño, Edición de Imagen Digital, Formación Editorial Digital, Modelado Digital, Diseño Interactivo Digital, Gráficos Digitales en Movimiento",
           "poster": "/img/materias/imagen-digital.jpeg",
           "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/EvIpOh6O11FLoN9UTKqOf4oBlMcxssTMrQjhfyx1JT_8Tw?e=41hP1a",
+          "circle": "red",
           "proyectos": [
             {
               "nombre": "Creación de personaje",
@@ -112,37 +116,41 @@
       "materias": [
         {
           "nombre": "Antropología para el Diseño",
-          "slug": "/antropología-diseno",
-          "semestre": "Primero",
+          "slug": "/antropologia-diseno",
+          "semestre": "Segundo",
           "nivel": "Básico",
           "area": "Cultura y Diseño",
-          "curricula": "Taller de Diseño I, Metodología para el Diseño",
-          "poster": "/img/materias/.jpeg",
-          "docs": "",
+          "curricula": "Sociedad, Cultura y Diseño Semiótica para el Diseño",
+          "poster": "/img/materias/antropologia-diseno.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/Er9F27oQ7vBCutUoWUX03lABQVCMnDfpJLJGKH8KobtTQQ?e=hCKbOd",
+          "circle": "red",
           "proyectos": [
             {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
-            },
-            {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
-            },
-            {
-              "nombre": "",
-              "objetivo": "",
-              "descripcion": "",
-              "entregable": ""
+              "nombre": "Antología de diseñadores contemporáneos",
+              "objetivo": "Desarrollar una antología de diseñadores contemporáneos. En esta se especificará especialidad, proyectos destacados, aportaciones a la historia del diseño, a la sociedad y a la cultura.",
+              "descripcion": "Desarrollar una antología de diseñadores contemporáneos. En esta se especificará especialidad, proyectos destacados, aportaciones a la historia del diseño, a la sociedad y a la cultura.",
+              "entregable": "Desarrollar una antología de diseñadores contemporáneos. En esta se especificará especialidad, proyectos destacados, aportaciones a la historia del diseño, a la sociedad y a la cultura."
             }
           ]
         },
         {
           "nombre": "Edición de Imagen Digital",
-          "slug": "/edicion-imagen-digital"
+          "slug": "/edicion-imagen-digital",
+          "semestre": "Segundo",
+          "nivel": "Básico",
+          "area": "Digital",
+          "curricula": "Imagen Digital I, Taller Básico de Diseño I y II",
+          "poster": "/img/materias/edicion-imagen-digital.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/Em0haKzvF5lPg86KB2WVCW8B3u17H0LuDWaX6udyLsI7rQ?e=JDUmIv",
+          "circle": "red",
+          "proyectos": [
+            {
+              "nombre": "'Matte Painting' con temática de fantasía",
+              "objetivo": "Llevar a cabo el diseño de un anuncio para una serie de televisión de Fantasía mediante el recorte y edición de imágenes bajo un concepto seleccionado por el alumno. Deberá ser impreso y montado en revista a doble página.",
+              "descripcion": "El alumno buscará imágenes en internet que se asemejen a los personajes de una serie o película y los integrarán en una composición en Photoshop. Argumentarán un concepto que hayan elegido para darle sentido al estilo y paleta de colores del diseño.",
+              "entregable": "Boceto a mano, Boceto digital, impreso a doble carta y montado en revista."
+            }
+          ]
         }
       ]
     },
@@ -158,6 +166,7 @@
           "curricula": "Taller de Diseño I, Metodología para el Diseño",
           "poster": "/img/materias/.jpeg",
           "docs": "",
+          "circle": "red",
           "proyectos": [
             {
               "nombre": "",
