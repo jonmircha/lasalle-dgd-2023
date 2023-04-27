@@ -1,7 +1,7 @@
 {
   "menuExpo": [
     {
-      "numero": "1er",
+      "numero": "1°",
       "materias": [
         {
           "nombre": "Historia de la Comunicación Gráfica",
@@ -158,15 +158,214 @@
       "numero": "3°",
       "materias": [
         {
-          "nombre": "Antropología para el Diseño",
-          "slug": "/antropología-diseno",
-          "semestre": "Primero",
+          "nombre": "Métodos Estratégicos",
+          "slug": "/metodos-estrategicos",
+          "semestre": "Tercero",
           "nivel": "Básico",
-          "area": "Cultura y Diseño",
-          "curricula": "Taller de Diseño I, Metodología para el Diseño",
+          "area": "Teórico Metodológico",
+          "curricula": "Metodología para el diseño, Antropología para el diseño, Taller de Proyectos de Diseño, Taller de Identidad, Taller de Diseño Editorial, Taller de Gráfica Aplicada al Envase, Taller de Campañas, Taller de Infografía, Metodología de la Investigación, Proyecto Terminal I y II",
+          "poster": "/img/materias/metodos-estrategicos.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/Ep8B7ncUZ21Dkd4Jc-mcmyUBwqgIZA6RaFhAufiE8W2qGg?e=VROjnY",
+          "circle": "red",
+          "proyectos": [
+            {
+              "nombre": "Usuario de Diseño",
+              "objetivo": "Identificar las necesidades de un usuario a través del uso de herramientas de la metodología Design Thinking para proponer una estrategia de diseño de forma clara y bien dirigida al considerar las características del user persona.",
+              "descripcion": "El estudiante deberá diseñar una estrategia de comunicación visual para Instagram dirigida a la generación X a través de la implementación de la herramienta empathy map utilizando las técnicas de observación participante, netnografía, investigación documental y entrevistas para aplicarse en el diseño de etiqueta colgante para la marca de productos sustentables Someone Somewhere.",
+              "entregable": "Presentación de diapositivas y plataforma de Conceptboard donde se integre un empathy map con todas las áreas llenas con información recogida de las técnicas de investigación del usuario, definición del Storytelling para la estrategia de comunicación visual, concepto gráfico, proceso de bocetaje de diseño de la etiqueta colgante para productos sustentables, brain storming, bocetos burdos, bocetos comprensivos, bocetos digitales, aplicación de la marca gráfica en la etiqueta, tres post para Instagram y tres Mockups de las etiquetas y tres de su publicación en Instagram. Se deberá anexar un PDF con la argumentación que explique el proyecto cómo se aplicaron las asignaturas que se cursaron en primer y segundo semestre, y cómo aporta la metodología de diseño a las asignaturas del tercer semestre. Se deberá diseñar una presentación de diapositivas donde se haga la exposición de su proceso."
+            },
+            {
+              "nombre": "Problemática de Diseño",
+              "objetivo": "Identificar a través de la observación de la realidad actual de la pandemia por COVID-19 las problemáticas más comunes que se encuentran con respecto al desperdicio y basura que provocan los desechos de los productos sanitarios que son recomendados por la OMS, mascarillas o cubre bocas, guantes de látex y recipientes de gel antibacterial, después de la investigación realizada se definirá una propuesta de solución desde el diseño gráfico y digital que ayude a resolver esta problemática.",
+              "descripcion": "Se definirá un problema de diseño desde la realidad de la pandemia para proponer una estrategia de comunicación visual que promueva evitar que los desechos sólidos derivados de los cuidados que pide la autoridad sanitaria en adultos de 30 a 40 años, se abordará la metodología de doble diamante para definir la problemática. Se trabajará en parejas.",
+              "entregable": "Propuesta de los tres soportes de diseño que coadyuven a evitar la basura pandémica, cada equipo deberá proponer una marca gráfica, un espacio para colocar los desechos y un esquema informativo donde se indique los pasos para el desecho de los productos sanitarios. Se deberán considerar todos los aspectos considerados en el proyecto uno."
+            }
+          ]
+        },
+        {
+          "nombre": "Composición Tipográfica",
+          "slug": "/composicion-tipografica",
+          "semestre": "Tercero",
+          "nivel": "Básico",
+          "area": "Representación",
+          "curricula": "Antropología para el diseño. Lab. de creatividad para el diseño. Taller básico de diseño I. Dibujo para el diseño. Dibujo geométrico II. Edición de Imagen digital",
+          "poster": "/img/materias/composicion-tipografica.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/EoEVjQKM66NKjMq-rGud9bEBwX134EbeSSL64NHLGGYXNQ?e=5oXiFc",
+          "circle": "red",
+          "proyectos": [
+            {
+              "nombre": "Selección tipográfica / LOGOTIPO: género musical",
+              "objetivo": "Desarrollar habilidades de selección tipográfica por medio de la interpretación conceptual y la recreación de signos tipográficos para el diseño de logotipos.",
+              "descripcion": "Representar tipográficamente un género musical por medio del siguiente proceso: Definición del concepto a representar, Conceptualización, Selección tipográfica, Edición, Digitalización y vectorización para aplicar la selección tipográfica al nombre de un intérprete y componer un flyer (volante) promocional de un grupo musical. ",
+              "entregable": "Representar tipográficamente un género musical por medio del siguiente proceso: Definición del concepto a representar, Conceptualización, Selección tipográfica, Edición, Digitalización y vectorización para aplicar la selección tipográfica al nombre de un intérprete y componer un flyer (volante) promocional de un grupo musical."
+            },
+            {
+              "nombre": "Selección y composición tipográfica / FICHAS TIPOGRÁFICAS: Tipógrafes",
+              "objetivo": "Desarrollar habilidades de selección tipográfica por medio de la interpretación conceptual y la recreación de signos tipográficos para el diseño de logotipos.",
+              "descripcion": "Representar tipográficamente un género musical por medio del siguiente proceso: Definición del concepto a representar, Conceptualización, Selección tipográfica, Edición, Digitalización y vectorización para aplicar la selección tipográfica al nombre de un intérprete y componer un flyer (volante) promocional de un grupo musical. ",
+              "entregable": "Cada FICHA Formato: Cuadrado de 17x17 cm impresa en gramaje cartulina y en archivo pdf. Frente: datos (unidades de información) / Vuelta: imagen (proyecto tipográfico)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "4°",
+      "materias": [
+        {
+          "nombre": "",
+          "slug": "/",
+          "semestre": "Cuarto",
+          "nivel": "",
+          "area": "",
+          "curricula": "",
           "poster": "/img/materias/.jpeg",
           "docs": "",
-          "circle": "red",
+          "circle": "purple",
+          "proyectos": [
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            },
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            },
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "5°",
+      "materias": [
+        {
+          "nombre": "",
+          "slug": "/",
+          "semestre": "Quinto",
+          "nivel": "",
+          "area": "",
+          "curricula": "",
+          "poster": "/img/materias/.jpeg",
+          "docs": "",
+          "circle": "purple",
+          "proyectos": [
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            },
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            },
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "6°",
+      "materias": [
+        {
+          "nombre": "",
+          "slug": "/",
+          "semestre": "Sexto",
+          "nivel": "",
+          "area": "",
+          "curricula": "",
+          "poster": "/img/materias/.jpeg",
+          "docs": "",
+          "circle": "purple",
+          "proyectos": [
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            },
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            },
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "7°",
+      "materias": [
+        {
+          "nombre": "",
+          "slug": "/",
+          "semestre": "Séptimo",
+          "nivel": "",
+          "area": "",
+          "curricula": "",
+          "poster": "/img/materias/.jpeg",
+          "docs": "",
+          "circle": "blue",
+          "proyectos": [
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            },
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            },
+            {
+              "nombre": "",
+              "objetivo": "",
+              "descripcion": "",
+              "entregable": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "8°",
+      "materias": [
+        {
+          "nombre": "",
+          "slug": "/",
+          "semestre": "Octavo",
+          "nivel": "",
+          "area": "",
+          "curricula": "",
+          "poster": "/img/materias/.jpeg",
+          "docs": "",
+          "circle": "blue",
           "proyectos": [
             {
               "nombre": "",
