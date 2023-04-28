@@ -686,6 +686,44 @@
               "entregable": "Al finalizar, los alumnos habrán realizado un proyecto digital de gran escala y multidisciplinario que abarcó todo el semestre para realizar cada una de las etapas y materiales requeridos para un canal de reseñas en YouTube, generando así consciencia sobre la dificultad, los tiempos y sinergia de trabajo en equipo."
             }
           ]
+        },
+        {
+          "nombre": "Práctica en el Campo Profesional",
+          "slug": "/practica-campo-profesional",
+          "semestre": "Octavo",
+          "nivel": "Profundización",
+          "area": "Proyectos",
+          "curricula": "Taller Básico de Diseño I y II, Taller de Proyectos de Diseño, Taller de Diseño Editorial, Taller de Identidad, Taller de Gráfica Aplicada al Envase, Taller de Campañas, Taller de Infografía, Metodología para el Diseño, Métodos Estratégicos, Semiótica para el Diseño, Retórica para el diseño, Antropología para el Diseño, Teorías Digitales, Diseño Sostenible, Metodología de Investigación, Fundamentos tipográficos, Composición Tipográfica, Composición Fotográfica, Fotografía Digital para el Diseño, Ilustración, Imagen Digital, Edición de Imagen Digital, Modelado Digital, Diseño Interactivo Digital, Gráficos Digitales en Movimiento, Diseño Digital Multimedia, Técnicas para la Producción Gráfica, Sistemas para la Producción Gráfica, Diseño y Mercadotecnia, Finanzas para diseñadores, Dirección de Proyectos de Diseño y las áreas de énfasis en Marca, Tecnología Digital y Diseño Ambiental.",
+          "poster": "/img/materias/practica-campo-profesional.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/EhW5sI0i7YhHoq6TyYkDZMYB_ZMVcVzL9RzgoKzcxgCXlQ?e=WtxWmq",
+          "circle": "blue",
+          "proyectos": [
+            {
+              "nombre": "Informa Final de Práctica Profesional",
+              "objetivo": "Recopilación, análisis y obtención de conclusiones individuales, en equipo y de todo el grupo, en torno a los trabajos realizados durante su práctica profesional.",
+              "descripcion": "Elaboración del informe final de su práctica profesional por escrito con extensión mínima de 10 cuartillas (introducción, desarrollo, memoria fotográfica, conclusión y fuentes de consulta).",
+              "entregable": "Presentación digital y exposición oral frente a grupo donde la presentación y la verbalización de la experiencia sea compartida con el grupo con el fin de enriquecer la perspectiva de todos al compartir información de la diferentes agencias de diseño donde se han isertado. Informe con formación en Diseño editorial: Portada, diagramación, imágenes, paginación, anexo de evidencias: carta de inicio y de término firmada por la empresa."
+            }
+          ]
+        },
+        {
+          "nombre": "Proyecto Terminal II",
+          "slug": "/proyecto-terminal-ii",
+          "semestre": "Octavo",
+          "nivel": "Profundización",
+          "area": "Proyectos",
+          "curricula": "Línea curricular de proyectos, Metodologías, Gestión, Línea digital, representación y Teóricas.",
+          "poster": "/img/materias/proyecto-terminal-ii.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/EmsBxNzFivREi6hMOHwCkB4BhlXky9QTl7c_q9qm9J7uZg?e=6up8Xg",
+          "circle": "blue",
+          "proyectos": [
+            {
+              "nombre": "Documento Final.",
+              "objetivo": "Elaborar un documento que permita a los alumnos conformar desde la estructura de la investigación, hasta el desarrollo conceptual y el proyecto gráfico, así como la estrategia de comunicación, mediante diferentes procesos y métodos de diseño con un enfoque pertinente de recursos y elementos que permitan a los estudiantes presentar un proyecto integral.",
+              "descripcion": "El documento del proyecto terminal II, según las características propias de cada propuesta, deberá contener los siguientes elementos: Estructura formal: Formato carta, diseño editorial, selección tipográfica y paginado. Estructura del documento: Portada, introducción, índice, descripción de la problemática, argumentación del proyecto, soluciones gráficas (bocetaje), propuestas gráficas, aplicaciones gráficas digitales, estrategias de los procesos de producción, de proveedores y servicios, cronograma, costos y presupuestos, validación del proyecto gráfico, conclusiones y referencias bibliográficas estilo APA.",
+              "entregable": "Documento previo del proyecto terminal I con las correcciones realizadas, así como el desarrollo del del proyecto gráfico para revisiones."
+            }
+          ]
         }
       ]
     }
