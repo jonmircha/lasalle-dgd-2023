@@ -268,6 +268,25 @@
               "entregable": "Una escena 3d formato “mb” con modelado de un bodegón; todo con materiales y luces básicas. Tres renders de la escena con diferentes posiciones de cámara, en formato jpg."
             }
           ]
+        },
+        {
+          "nombre": "Fotografía Digital",
+          "slug": "/fotografia-digital",
+          "semestre": "Cuarto",
+          "nivel": "Intermedio",
+          "area": "Digital",
+          "curricula": "Taller básico de diseño I Composición fotográfica Diseño interactivo digital, Diseño editorial, Taller de proyectos de diseño, Imagen digital, Técnicas para la producción gráfica.",
+          "poster": "/img/materias/fotografia-digital.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/EhPPkc_B1w5Jmbsgt1oBBV4Biu1uHDBG0B2i_j5ZV2gCUw?e=9FJJup",
+          "circle": "purple",
+          "proyectos": [
+            {
+              "nombre": "Shooting genera de la materia",
+              "objetivo": "El estudiante aplicará los conocimientos relacionados con el manejo de la iluminación artificial y natural en géneros como el retrato, el product shot, food style.",
+              "descripcion": "Obtener fotografías ligadas al diseño, a través de equipos fotográficos digitales, técnicas de iluminación y software de edición, que respondan al desarrollo de proyectos.",
+              "entregable": "El estudiante obtendrá conocimientos relacionados con las técnicas de manejo de cámara e iluminación para proyectos de fotografía publicitaria, como retrato, producto shot, food style."
+            }
+          ]
         }
       ]
     },
@@ -434,6 +453,25 @@
               "objetivo": "Que el alumno aprenda a realizar animaciones interactivas en páginas web sin la necesidad de usar código por medio de Adobe Animate.",
               "descripcion": "El alumno empleará Adobe Animate y aplicará  distintas secuencias de animación e incorporará las cualidades de interactividad para lograr más posibilidad de distribución de los contenidos.",
               "entregable": "La profundidad y la animación por línea vectorial es utilizado principalmente en los medios digitales de publicidad, como son: comerciales y escenas cinematográficas, creando entornos 3D (profundidad) y generando puntos de atención específicos para el espectador dentro de la narrativa."
+            }
+          ]
+        },
+        {
+          "nombre": "Sistemas de Producción Gráfica",
+          "slug": "/sistemas-produccion-grafica",
+          "semestre": "Sexto",
+          "nivel": "Intermedio",
+          "area": "Producción",
+          "curricula": "Imagen Digital I y II, Diseño Digital Multimedia",
+          "poster": "/img/materias/sistemas-produccion-grafica.jpeg",
+          "docs": "http://tallerpublicidadulsa.blogspot.com/",
+          "circle": "purple",
+          "proyectos": [
+            {
+              "nombre": "Blog de trabajos realizados",
+              "objetivo": "El alumno aprenderá a realizar producción  fotográfica.",
+              "descripcion": "En este blog se encuentran las colecciones de trabajos de Técnicas para la Producción Gráfica y Sistemas para la Producción Gráfica que se han llevado acabo en los últimos 10 años.",
+              "entregable": "Blog Digital."
             }
           ]
         }
