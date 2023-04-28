@@ -532,7 +532,7 @@
           "area": "Proyectos",
           "curricula": "Taller Básico de Diseño I y II, Taller de Proyectos de Diseño, Taller de Diseño Editorial, Taller de Identidad, Taller de Gráfica Aplicada al Envase, Taller de Campañas, Taller de Infografía, Metodología para el Diseño, Métodos Estratégicos, Semiótica para el Diseño, Retórica para el diseño, Antropología para el Diseño, Teorías Digitales, Diseño Sostenible, Metodología de Investigación, Fundamentos tipográficos, Composición Tipográfica, Composición Fotográfica, Fotografía Digital para el Diseño, Ilustración, Imagen Digital, Edición de Imagen Digital, Modelado Digital, Diseño Interactivo Digital, Gráficos Digitales en Movimiento, Diseño Digital Multimedia, Técnicas para la Producción Gráfica, Sistemas para la Producción Gráfica, Diseño y Mercadotecnia, Finanzas para diseñadores, Dirección de Proyectos de Diseño y las áreas de énfasis en Marca, Tecnología Digital y Diseño Ambiental.",
           "poster": "/img/materias/proyecto-terminal.jpeg",
-          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/EmsBxNzFivREi6hMOHwCkB4BhlXky9QTl7c_q9qm9J7uZg?e=6up8Xg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/Euvl-6rbSHJHjtPixz5fGs0BlCjqiHWRY_4G5Y5dZjB_fQ?e=Lq86qA",
           "circle": "blue",
           "proyectos": [
             {
@@ -722,6 +722,69 @@
               "objetivo": "Elaborar un documento que permita a los alumnos conformar desde la estructura de la investigación, hasta el desarrollo conceptual y el proyecto gráfico, así como la estrategia de comunicación, mediante diferentes procesos y métodos de diseño con un enfoque pertinente de recursos y elementos que permitan a los estudiantes presentar un proyecto integral.",
               "descripcion": "El documento del proyecto terminal II, según las características propias de cada propuesta, deberá contener los siguientes elementos: Estructura formal: Formato carta, diseño editorial, selección tipográfica y paginado. Estructura del documento: Portada, introducción, índice, descripción de la problemática, argumentación del proyecto, soluciones gráficas (bocetaje), propuestas gráficas, aplicaciones gráficas digitales, estrategias de los procesos de producción, de proveedores y servicios, cronograma, costos y presupuestos, validación del proyecto gráfico, conclusiones y referencias bibliográficas estilo APA.",
               "entregable": "Documento previo del proyecto terminal I con las correcciones realizadas, así como el desarrollo del del proyecto gráfico para revisiones."
+            }
+          ]
+        },
+        {
+          "nombre": "Actividad Curricular Complementaria",
+          "slug": "/actividad-curricular",
+          "semestre": "Octavo",
+          "nivel": "Profundización",
+          "area": "Gestión",
+          "curricula": "Taller básico de diseño I Y II, Dibujo antropométrico Dibujo geométrico I Y II, Imagen digital , Materiales y prototipos, Dibujo para el diseño, Edición de Imagen digital, Fundamentos tipográficos, Taller de proyectos de diseño, Composición fotográfica, , Formación editorial digital, Composición tipográfica, Taller de diseño editorial, Taller de Identidad, Fotografía para el diseño, Modelado digital, Ilustración, Taller de gráfica aplicada al envase, Diseño y mercadotecnia, Técnicas para la producción gráfica, Diseño interactivo digital, Taller de Campañas, Finanzas para diseñadores, Sistemas para la producción gráfica, Gráficos digitales en movimiento, Diseño digital multimedia, Taller de infografía, asignaturas de área de profundización 1 Y 2.",
+          "poster": "/img/materias/actividad-curricular.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/EtyT5od7AnhAui3tXwW2AvABval8iZPnxMPjCZJjN-Os_g?e=rt5UPX",
+          "circle": "blue",
+          "proyectos": [
+            {
+              "nombre": "Portafolio de Evidencias",
+              "objetivo": "Generar en el estudiante una reflexión sobre su aprendizaje y experiencia a partir de su desarrollo dentro de las prácticas profesionales.",
+              "descripcion": "Se realizará un portafolio de evidencias del desarrollo de habilidades y de nuevos aprendizajes adquiridos en actividades extracurriculares como cursos, visitas, congresos, mesas redondas, conferencias, entre otros y que fueron reflejados en trabajos propios de materias . En ella se describirán el organigrama de la empresa, responsabilidades adquiridas, las metodologías de trabajo realizadas, análisis de éstas y resultados gráficos.",
+              "entregable": "Presentación digital y exposición oral frente a grupo donde la presentación y la verbalización de la experiencia sea compartida con el grupo con el fin de enriquecer la perspectiva de todos al compartir información de la diferentes experiencias en COngresos, Viajes, Cursos y eleentos extracurriculares que complementan al saber del diseñador."
+            }
+          ]
+        },
+        {
+          "nombre": "Producto y Marca",
+          "slug": "/producto-marca",
+          "semestre": "Octavo",
+          "nivel": "Profundización",
+          "area": "Área de Profundización Marca",
+          "curricula": "Área de profundización 1 y 2. Todos los talleres básicos, Identidad, Envase, Campañas y Editorial. Desarrollo digital y Metodológico de todos los semestres previos.",
+          "poster": "/img/materias/producto-marca.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/Eo7JuTkygyxFqEZ6kAvNrbMBLxjdRGwSfe2r4_j9A3j9RA?e=yWM9wS",
+          "circle": "blue",
+          "proyectos": [
+            {
+              "nombre": "Creación de una marca y producto",
+              "objetivo": "El alumno diseñará una propuesta de producto o servicio innovador para una categoría necesitada. Construirá una marca centrada en los intereses más relevantes de su usuario.",
+              "descripcion": "El alumno investigará a profundidad un segmento y categoría, para determinar el mejor producto o servicio que atienda su necesidad principal. Efectuará entrevistas a profundidad y creará un nuevo perfil para poder crear una marca que le hable directamente al sector necesitado.",
+              "entregable": "Un documento PDF con el dossier del producto y marca creados, que incluye: Investigación de la categoría. Investigación del segmento al que se puede dirigir la marca. Entrevistas a profundidad con 3 usuarios de ambos segmentos. Ubicación de necesidades principales de usuarios. Creación de nuevo perfil, empathy map, opportunity map, declaraciones e insights. Definición de producto/servicio que mejor resuelva la necesidad. Conclusiones etapa 1."
+            }
+          ]
+        },
+        {
+          "nombre": "Intervención del Espacio",
+          "slug": "/intervencion-espacio",
+          "semestre": "Octavo",
+          "nivel": "Profundización",
+          "area": "Área de Profundización Diseño Ambiental",
+          "curricula": "Metodología para el diseño-Sociedad Cultura y Diseño-Metodología para la investigación. Taller de campañas-materiales y prototiposmodelado digital-diseño digital multimediafinanzas para diseñadores.",
+          "poster": "/img/materias/intervencion-espacio.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/EpRKnEeOCUBHgrihoyPhwg4B7DQT7dR9D910EiO_9F8x_Q?e=C1b8yG",
+          "circle": "blue",
+          "proyectos": [
+            {
+              "nombre": "Sensibilización ambiental presencial y virtual.",
+              "objetivo": "Generar estrategias de levantamiento sensorial espacial.",
+              "descripcion": "El alumno explorará las relaciones ambientales y culturales de un espacio de tránsito interior o exterior.",
+              "entregable": "Ensayo y mapa conceptual."
+            },
+            {
+              "nombre": "Propuesta escénica alternativa fuera del espacio teatral.",
+              "objetivo": "Explorara las posibilidades de reunión masiva de público en espacios libres del encierro en la época del confinamiento pandémico.",
+              "descripcion": "Tomando como referencia un espacio público de reunión se realizará una propuesta ambiental de espectáculo masivo.",
+              "entregable": "Haber participado activamente con avances en las clases de revisión, entregar maqueta, planos y desarrollo analítico correspondiente."
             }
           ]
         }
