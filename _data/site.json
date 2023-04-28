@@ -523,6 +523,126 @@
               "entregable": "Reconocer y orientar las capacidades del alumno para utilizar el bocetaje análogo y orientarlo hacia lo digital."
             }
           ]
+        },
+        {
+          "nombre": "Proyecto Terminal",
+          "slug": "/proyecto-terminal",
+          "semestre": "Séptimo",
+          "nivel": "Profundización",
+          "area": "Proyectos",
+          "curricula": "Taller Básico de Diseño I y II, Taller de Proyectos de Diseño, Taller de Diseño Editorial, Taller de Identidad, Taller de Gráfica Aplicada al Envase, Taller de Campañas, Taller de Infografía, Metodología para el Diseño, Métodos Estratégicos, Semiótica para el Diseño, Retórica para el diseño, Antropología para el Diseño, Teorías Digitales, Diseño Sostenible, Metodología de Investigación, Fundamentos tipográficos, Composición Tipográfica, Composición Fotográfica, Fotografía Digital para el Diseño, Ilustración, Imagen Digital, Edición de Imagen Digital, Modelado Digital, Diseño Interactivo Digital, Gráficos Digitales en Movimiento, Diseño Digital Multimedia, Técnicas para la Producción Gráfica, Sistemas para la Producción Gráfica, Diseño y Mercadotecnia, Finanzas para diseñadores, Dirección de Proyectos de Diseño y las áreas de énfasis en Marca, Tecnología Digital y Diseño Ambiental.",
+          "poster": "/img/materias/proyecto-terminal.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/EmsBxNzFivREi6hMOHwCkB4BhlXky9QTl7c_q9qm9J7uZg?e=6up8Xg",
+          "circle": "blue",
+          "proyectos": [
+            {
+              "nombre": "Documento",
+              "objetivo": "Generar un documento que permita a cada alumno determinar la estructura de la investigación, el desarrollo conceptual y conformación de una propuesta gráfica, como estrategia de comunicación visual y gráfica, mediante diferentes procesos y métodos de diseño desde un enfoque para la aplicación de recursos y elementos que le permitan una propuesta integral.",
+              "descripcion": "El documento del proyecto terminal I, según las características propias de cada caso, se deberán tomar en cuenta los siguientes elementos: Estructura formal: Formato carta. Estructura del documento: Portada con título, introducción, índice, los tres primeros capítulos, citación APA y fuentes de investigación.",
+              "entregable": "Trabajar sobre el documento en cada clase y respetar las fechas de entrega y asesorías correspondientes."
+            }
+          ]
+        },
+        {
+          "nombre": "Dirección de Proyectos de Diseño",
+          "slug": "/direccion-proyectos-diseno",
+          "semestre": "Séptimo",
+          "nivel": "Profundización",
+          "area": "Gestión",
+          "curricula": "Taller Básico de Diseño I y II, Taller de Proyectos de Diseño, Taller de Diseño Editorial, Taller de Identidad, Taller de Gráfica Aplicada al Envase, Taller de Campañas, Taller de Infografía, Metodología para el Diseño, Métodos Estratégicos, Semiótica para el Diseño, Retórica para el diseño, Antropología para el Diseño, Teorías Digitales, Diseño Sostenible, Metodología de Investigación, Fundamentos tipográficos, Composición Tipográfica, Composición Fotográfica, Fotografía Digital para el Diseño, Ilustración, Imagen Digital, Edición de Imagen Digital, Modelado Digital, Diseño Interactivo Digital, Gráficos Digitales en Movimiento, Diseño Digital Multimedia, Técnicas para la Producción Gráfica, Sistemas para la Producción Gráfica, Diseño y Mercadotecnia, Finanzas para diseñadores, Dirección de Proyectos de Diseño y las áreas de énfasis en Marca, Tecnología Digital y Diseño Ambiental.",
+          "poster": "/img/materias/direccion-proyectos-diseno.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/Eg3X8l0E5zxKm_FPyHaBMs8BHZ6ZXzBLvQoxyuU-qAiwTA?e=JbvhCp",
+          "circle": "blue",
+          "proyectos": [
+            {
+              "nombre": "Branding aplicado a marca y producto",
+              "objetivo": "Generar un proyecto integral que desarrolle los momentos de un desarrollo de trabajo de diseño para un cliente definido.",
+              "descripcion": "El documento debe de ser una presentación a cliente para el desarrollo de una marca específica, la aplicación de ésta en objetos como carteles, redes sociales,  empaques, elementos de promoción entre otros. Lla estrategia de comunicación a partir del diseño de una campaña tradicional y una campaña digital.",
+              "entregable": "Entrega de carta de presentación de la agencia de diseño así como la presentación del presupuesto de éste, la propuesta gráfica del desarrollo y el brief que lo soporte."
+            }
+          ]
+        },
+        {
+          "nombre": "Estructura de Marca",
+          "slug": "/estructura-marca",
+          "semestre": "Séptimo",
+          "nivel": "Profundización",
+          "area": "Área de Profundización Marca",
+          "curricula": "Taller basico de diseño i y ii. Taller de proyectos de diseño. Taller de diseño editorial. Taller de gráfica aplicada al envase. Taller de identidad. Diseño y mercadotecnia. Técnicas y sistemas para la producción gráfica",
+          "poster": "/img/materias/estructura-marca.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/Ejn0i5nZVblBvjf9YecAtOwB02fOEoqVEU1ZwkOMiolRgQ?e=1tDJOy",
+          "circle": "blue",
+          "proyectos": [
+            {
+              "nombre": "Estrategis de relanzamiento de una marca existente.",
+              "objetivo": "Aplicar aspectos estratégicos y creativos en el desarrollo de una campaña de relanzamiento para una marca. (Resurgmiento).",
+              "descripcion": "Generar la estrategia de reposicionamiento de una marca a partir del desarrollo de actualización del  naming, personalidad visual (marca, etiqueta) y comunicación de marca para su introducción al mercado, aplicando las herramientas de promoción y publicidad mas adecuadas para el caso.",
+              "entregable": "Un documento PDF con el desarrollo de todos los puntos del brief de campaña y las imágenes de los diez medios publicitarios de la campaña en formato de mock up."
+            }
+          ]
+        },
+        {
+          "nombre": "Comunicación Estratégica de Marca",
+          "slug": "/comunicacion-estrategica-marca",
+          "semestre": "Séptimo",
+          "nivel": "Profundización",
+          "area": "Área de Profundización Marca",
+          "curricula": "Mercadotecnia y Diseño. Estructura de Marca Producto y Marca. Dirección de proyectos de diseño. Laboratorio de Tecnologías Emergentes. Proyecto Terminal I. Proyecto Terminal II",
+          "poster": "/img/materias/comunicacion-estrategica-marca.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/EkGOAczgYuBApY8XxgBABDoBx0Ji1uyrpjZgv9TwALYm1w?e=NMv7iS",
+          "circle": "blue",
+          "proyectos": [
+            {
+              "nombre": "Auditoria de Marca para nuevas oportunidades de negocio.",
+              "objetivo": "Entrar en contacto con metodologías para desarrollar proyectos de Auditoría de Marca. Aplicar habilidades para la investigación y puesta en escena de soluciones. Reconocer las variables que intervienen en los proyectos de Comunicación de Marca. Poner en práctica habilidades de análisis, diagnóstico y toma de decisiones en proyectos de Marca. Ampliar las habilidades propias de pensamiento crítico, comunicación y relaciones interdisciplinarias.",
+              "descripcion": "Desarrollar una auditoría para una marca de productos de consumo duradero (Electrodomésticos). Escenario: el producto requiere desarrollar nuevas oportunidades de negocio. Considerar en la auditoría las etapas de: Objetivos; Levantamiento; Inteligencia y Diagnóstico.",
+              "entregable": "El desarrollo del proyecto en equipos de 2-3 alumnos Cumplir a detalle el brief del proyecto donde se especifican sus requisitos, parámetros, indicaciones y variables principales. Entregar en tiempo y forma todas las etapas del desarrollo del proyecto. Asistir a las asesorías en clase."
+            }
+          ]
+        },
+        {
+          "nombre": "Diseño de Efectos Visuales",
+          "slug": "/diseno-efectos-visuales",
+          "semestre": "Séptimo",
+          "nivel": "Profundización",
+          "area": "Área de Profundización Digital",
+          "curricula": "Imagen Digital, Edición De Imagen Digital, Formación Editorial Digital, Modelado Digital, Diseño Interactivo Digital, Gráficos Digitales En Movimiento.",
+          "poster": "/img/materias/diseno-efectos-visuales.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/EnkACXXiM8FPpTyQo0FO_uMBFPtHCX1GUV9BpjYy8GzM5g?e=QvPdwa",
+          "circle": "blue",
+          "proyectos": [
+            {
+              "nombre": "Multiplicación de una persona",
+              "objetivo": "Conocer y experimentar con las herramientas digitales  de manejo de pietaje con pantalla verde, capas y máscaras.",
+              "descripcion": "El alumno se grabará a si mismo en un foro, frente una pantalla verde. Se requieren tres diferentes ubicaciones en el cuarto, pero sin mover la cámara. Posteriormente construirá con una fotografía una toma fantasiosa donde parezca que las tres tomas están interactuando entre ellas.",
+              "entregable": "El material grabado, imágenes y elementos gráficos deben ser 100% de la autoría del alumno. No se permite el uso de material creado previamente o templates comprados en línea."
+            },
+            {
+              "nombre": "Creación de un comercial de snack gigante",
+              "objetivo": "Recuperar e integrar en equipo los conocimientos adquiridos en fotografía, audiovisuales, gráficos en movimiento y modelado digital para crear una producción audiovisual con efectos visuales de nivel intermedio.",
+              "descripcion": "Por equipos, los alumnos deberán conceptualizar, producir y post-producir un anuncio comercial de 20 seg. de duración, integrando varios videos grabados en locación, y combinándolos con otros elementos gráficos para crear un efecto de un snack de tamaño gigante. IMPORTANTE:  Cada miembro del equipo debe hacer 2 tomas de efectos en el comercial.",
+              "entregable": "El material grabado, imágenes y elementos gráficos deben ser 100% de la autoría del alumno. No se permite el uso de material creado previamente o templates comprados en línea."
+            }
+          ]
+        },
+        {
+          "nombre": "Diseño, y Gráfica Ambiental",
+          "slug": "/diseno-grafica-ambiental",
+          "semestre": "Séptimo",
+          "nivel": "Profundización",
+          "area": "Área de Profundización Diseño Ambiental",
+          "curricula": "Metodología para el diseño-Sociedad Cultura y Diseño-Metodología para la investigación-Taller de campañas-materiales y prototipos-modelado digital-diseño digital multimedia-finanzas para diseñadores.",
+          "poster": "/img/materias/diseno-grafica-ambiental.jpeg",
+          "docs": "https://lasallistasorg.sharepoint.com/:f:/s/ACREDITACIN/EjGJq-j7Fx1Du6IzfCgio3YBCaDB8LtHEpI5DG63TkFSqA?e=iwq1Uz",
+          "circle": "blue",
+          "proyectos": [
+            {
+              "nombre": "Exposición Museografía",
+              "objetivo": "Desarrollar una propuesta integral gráfico-espacial, para la aplicación de saberes multidisciplinarios en el campo de la museografía.",
+              "descripcion": "Se realizará una exposición temporal gráfico-espacial, física y digital; de un periodo específico, por medio de la metodología y saberes multidisciplinarios, estableciendo los parámatetros de intervención y alcance en el campo museográfico.",
+              "entregable": "Investigación del periodo, Book con la conceptualización, bocetos y proceso, así como láminas digitales con las imágenes en formato 90cm x 60cm"
+            }
+          ]
         }
       ]
     },
