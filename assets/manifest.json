@@ -1,9 +1,9 @@
 {
-  "name": "🦊 Kenai Eleventy Starter Template",
-  "short_name": "🦊 Kenai",
+  "name": "Universidad La Salle",
+  "short_name": "Universidad La Salle",
   "description": "Description Project",
-  "background_color": "#FFF",
-  "theme_color": "#F60",
+  "background_color": "#001e61",
+  "theme_color": "#ce0e2d",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "../",
